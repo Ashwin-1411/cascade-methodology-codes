@@ -1,0 +1,26 @@
+# =============================================================================
+# Python packages (pip install -r requirements_1.txt)
+# =============================================================================
+semgrep==1.157.0
+flawfinder==2.0.19
+bandit==1.9.4
+requests==2.32.5
+zaproxy==0.6.0
+nuclei==0.1.0
+docker==7.2.0
+# spotbugs is a Java tool, not a pip package — install via https://github.com/spotbugs/spotbugs/releases/tag/4.8.6
+
+# =============================================================================
+# Go tools — not pip-installable, install separately
+# github.com/go-enry/enry/v2/cmd/enry@v1.3.0
+# github.com/ffuf/ffuf/v2@v2.1.0
+# =============================================================================
+
+# =============================================================================
+# Docker images — not pip-installable, pull separately
+# ghcr.io/zaproxy/zaproxy:2.17.0
+# projectdiscovery/nuclei:v3.7.1
+# ghcr.io/digininja/dvwa@sha256:ed35515e986c6    # replace with full digest
+# php:8.5.10-apache
+# mariadb:10
+# =============================================================================

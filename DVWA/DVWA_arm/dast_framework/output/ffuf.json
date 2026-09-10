@@ -1,0 +1,544 @@
+{
+  "results": [
+    {
+      "input": {
+        "FFUFHASH": "c430518",
+        "FUZZ": ".hta"
+      },
+      "position": 24,
+      "status": 403,
+      "length": 316,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 1415850,
+      "resultfile": "",
+      "url": "http://localhost:8080/.hta",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43054c3",
+        "FUZZ": "config"
+      },
+      "position": 1219,
+      "status": 301,
+      "length": 354,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "http://localhost:8080/config/",
+      "scraper": {},
+      "duration": 157070,
+      "resultfile": "",
+      "url": "http://localhost:8080/config",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305561",
+        "FUZZ": "database"
+      },
+      "position": 1377,
+      "status": 301,
+      "length": 356,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "http://localhost:8080/database/",
+      "scraper": {},
+      "duration": 138462,
+      "resultfile": "",
+      "url": "http://localhost:8080/database",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43055fc",
+        "FUZZ": "docs"
+      },
+      "position": 1532,
+      "status": 301,
+      "length": 352,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "http://localhost:8080/docs/",
+      "scraper": {},
+      "duration": 163765,
+      "resultfile": "",
+      "url": "http://localhost:8080/docs",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43056d2",
+        "FUZZ": "external"
+      },
+      "position": 1746,
+      "status": 301,
+      "length": 356,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "http://localhost:8080/external/",
+      "scraper": {},
+      "duration": 146448,
+      "resultfile": "",
+      "url": "http://localhost:8080/external",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43056ec",
+        "FUZZ": "favicon.ico"
+      },
+      "position": 1772,
+      "status": 200,
+      "length": 1406,
+      "words": 5,
+      "lines": 2,
+      "content-type": "image/vnd.microsoft.icon",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207844,
+      "resultfile": "",
+      "url": "http://localhost:8080/favicon.ico",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43058a2",
+        "FUZZ": "index.php"
+      },
+      "position": 2210,
+      "status": 200,
+      "length": 6450,
+      "words": 637,
+      "lines": 118,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 1747963,
+      "resultfile": "",
+      "url": "http://localhost:8080/index.php",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c430519",
+        "FUZZ": ".htaccess"
+      },
+      "position": 25,
+      "status": 403,
+      "length": 316,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 117067475,
+      "resultfile": "",
+      "url": "http://localhost:8080/.htaccess",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43051a",
+        "FUZZ": ".htpasswd"
+      },
+      "position": 26,
+      "status": 403,
+      "length": 316,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 121741302,
+      "resultfile": "",
+      "url": "http://localhost:8080/.htpasswd",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305c30",
+        "FUZZ": "phpinfo.php"
+      },
+      "position": 3120,
+      "status": 200,
+      "length": 87399,
+      "words": 4329,
+      "lines": 986,
+      "content-type": "text/html; charset=UTF-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 4408180,
+      "resultfile": "",
+      "url": "http://localhost:8080/phpinfo.php",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305e0b",
+        "FUZZ": "robots.txt"
+      },
+      "position": 3595,
+      "status": 200,
+      "length": 26,
+      "words": 3,
+      "lines": 2,
+      "content-type": "text/plain",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 103391,
+      "resultfile": "",
+      "url": "http://localhost:8080/robots.txt",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305e77",
+        "FUZZ": "security.txt"
+      },
+      "position": 3703,
+      "status": 200,
+      "length": 152,
+      "words": 25,
+      "lines": 2,
+      "content-type": "text/plain",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 154332,
+      "resultfile": "",
+      "url": "http://localhost:8080/security.txt",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305e99",
+        "FUZZ": "server-status"
+      },
+      "position": 3737,
+      "status": 403,
+      "length": 316,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 83443,
+      "resultfile": "",
+      "url": "http://localhost:8080/server-status",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c43051035",
+        "FUZZ": "tests"
+      },
+      "position": 4149,
+      "status": 301,
+      "length": 353,
+      "words": 21,
+      "lines": 10,
+      "content-type": "text/html; charset=iso-8859-1",
+      "redirectlocation": "http://localhost:8080/tests/",
+      "scraper": {},
+      "duration": 87790,
+      "resultfile": "",
+      "url": "http://localhost:8080/tests",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "c4305c1e",
+        "FUZZ": "php.ini"
+      },
+      "position": 3102,
+      "status": 200,
+      "length": 154,
+      "words": 19,
+      "lines": 6,
+      "content-type": "",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3952633459,
+      "resultfile": "",
+      "url": "http://localhost:8080/php.ini",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344dd",
+        "FUZZ": "weak_id"
+      },
+      "position": 13,
+      "status": 200,
+      "length": 3932,
+      "words": 241,
+      "lines": 97,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3564618,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/weak_id/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d6",
+        "FUZZ": "exec"
+      },
+      "position": 6,
+      "status": 200,
+      "length": 4598,
+      "words": 244,
+      "lines": 113,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3602811,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/exec/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d8",
+        "FUZZ": "upload"
+      },
+      "position": 8,
+      "status": 200,
+      "length": 4491,
+      "words": 248,
+      "lines": 110,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3559197,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/upload/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d3",
+        "FUZZ": "xss_r"
+      },
+      "position": 3,
+      "status": 200,
+      "length": 4725,
+      "words": 247,
+      "lines": 112,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3509793,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/xss_r/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344de",
+        "FUZZ": "authbypass"
+      },
+      "position": 14,
+      "status": 200,
+      "length": 4438,
+      "words": 269,
+      "lines": 119,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3709884,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/authbypass/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344dc",
+        "FUZZ": "open_redirect"
+      },
+      "position": 12,
+      "status": 200,
+      "length": 4746,
+      "words": 270,
+      "lines": 110,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3299465,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/open_redirect/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d9",
+        "FUZZ": "csrf"
+      },
+      "position": 9,
+      "status": 200,
+      "length": 5866,
+      "words": 359,
+      "lines": 132,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3741900,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/csrf/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344df",
+        "FUZZ": "brute"
+      },
+      "position": 15,
+      "status": 200,
+      "length": 4660,
+      "words": 243,
+      "lines": 113,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3952393,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/brute/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d2",
+        "FUZZ": "sqli_blind"
+      },
+      "position": 2,
+      "status": 200,
+      "length": 4638,
+      "words": 241,
+      "lines": 113,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3922812,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/sqli_blind/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d5",
+        "FUZZ": "xss_d"
+      },
+      "position": 5,
+      "status": 200,
+      "length": 5117,
+      "words": 273,
+      "lines": 119,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3706676,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/xss_d/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344da",
+        "FUZZ": "captcha"
+      },
+      "position": 10,
+      "status": 200,
+      "length": 5209,
+      "words": 278,
+      "lines": 122,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 4142879,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/captcha/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d1",
+        "FUZZ": "sqli"
+      },
+      "position": 1,
+      "status": 200,
+      "length": 4569,
+      "words": 239,
+      "lines": 111,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 4024563,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/sqli/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344db",
+        "FUZZ": "javascript"
+      },
+      "position": 11,
+      "status": 200,
+      "length": 8835,
+      "words": 319,
+      "lines": 129,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 3955514,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/javascript/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d4",
+        "FUZZ": "xss_s"
+      },
+      "position": 4,
+      "status": 200,
+      "length": 435,
+      "words": 29,
+      "lines": 8,
+      "content-type": "text/html; charset=UTF-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 4279148,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/xss_s/",
+      "host": "localhost:8080"
+    },
+    {
+      "input": {
+        "FFUFHASH": "1344d10",
+        "FUZZ": "api"
+      },
+      "position": 16,
+      "status": 200,
+      "length": 7281,
+      "words": 496,
+      "lines": 208,
+      "content-type": "text/html;charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 36634592,
+      "resultfile": "",
+      "url": "http://localhost:8080/vulnerabilities/api/",
+      "host": "localhost:8080"
+    }
+  ]
+}

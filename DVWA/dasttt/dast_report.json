@@ -1,0 +1,1545 @@
+[
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/.hta",
+    "status": 403,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/config",
+    "status": 301,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/database",
+    "status": 301,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/docs",
+    "status": 301,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/external",
+    "status": 301,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/favicon.ico",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/.htaccess",
+    "status": 403,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/index.php",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/.htpasswd",
+    "status": 403,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/php.ini",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/phpinfo.php",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/robots.txt",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/security.txt",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/server-status",
+    "status": 403,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/tests",
+    "status": 301,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/fi/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/exec/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/xss_r/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/open_redirect/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/authbypass/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/upload/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/brute/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/sqli/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/weak_id/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/javascript/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/xss_s/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/captcha/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/csrf/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/xss_d/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/sqli_blind/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "ffuf",
+    "type": "endpoint",
+    "endpoint": "http://localhost:8080/vulnerabilities/api/",
+    "status": 200,
+    "confidence": "high"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - AND boolean-based blind - WHERE or HAVING clause",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/sqli_blind/",
+    "url": "http://localhost:8080/vulnerabilities/sqli_blind/?Submit=Submit&id=1%27+AND+3117%3D6015+AND+%27nnYD%27%3D%27nnYD",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/sqli/",
+    "url": "http://localhost:8080/vulnerabilities/sqli/?id=1%27+AND+%28SELECT+4848+FROM%28SELECT+COUNT%28*%29%2CCONCAT%280x3a62616e3a%2C%28SELECT+%28ELT%284848%3D4848%2C1%29%29%29%2C0x3a77776b3a%2CFLOOR%28RAND%280%29*2%29%29x+FROM+INFORMATION_SCHEMA.CHARACTER_SETS+GROUP+BY+x%29a%29+AND+%27qyrx%27%3D%27qyrx&Submit=Submit",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - MySQL >= 5.0.12 AND time-based blind (SELECT)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&username=admin%27+AND+%28SELECT+*+FROM+%28SELECT%28SLEEP%285%29%29%29fGgX%29+AND+%27hSKo%27%3D%27hSKo",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&username=admin%27+AND+EXTRACTVALUE%288455%2CCONCAT%280x5c%2C0x3a62616e3a%2C%28SELECT+%28ELT%288455%3D8455%2C1%29%29%29%2C0x3a77776b3a%29%29+AND+%27XBYo%27%3D%27XBYo",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/sqli/",
+    "url": "http://localhost:8080/vulnerabilities/sqli/?id=1%27+RLIKE+%28SELECT+%28CASE+WHEN+%283458%3D6116%29+THEN+1+ELSE+0x28+END%29%29+AND+%27zSsV%27%3D%27zSsV&Submit=Submit",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - MySQL UNION query (NULL) - 1 to 10 columns",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&username=admin%25%27+UNION+ALL+SELECT+NULL%2CNULL%2CNULL%2CNULL%2CNULL%2CCONCAT%280x3a62616e3a%2C0x4a7066677869626c4457%2C0x3a77776b3a%29%2CNULL%2CNULL%2CNULL%23",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Advanced SQL Injection - PostgreSQL > 8.1 stacked queries (comment)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/sqli_blind/",
+    "url": "http://localhost:8080/vulnerabilities/sqli_blind/?Submit=Submit&id=1%27%3BSELECT+PG_SLEEP%285%29--",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>A SQL injection may be possible using the attached payload.</p>",
+    "param": "id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Cross Site Scripting (Reflected)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/sqli/",
+    "url": "http://localhost:8080/vulnerabilities/sqli/?id=%27%22%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E&Submit=Submit",
+    "confidence": "2",
+    "cweid": "79",
+    "desc": "<p>Cross-site Scripting (XSS) is an attack technique that involves echoing attacker-supplied code into a user's browser instance. A browser instance can be a standard web browser client, or a browser object embedded in a software product such as the browser within WinAmp, an RSS reader, or an email client. The code itself is usually written in HTML/JavaScript, but may also extend to VBScript, ActiveX, Java, Flash, or any other browser-supported technology.</p><p>When an attacker gets a user's browser to execute his/her code, the code will run within the security context (or zone) of the hosting web site. With this level of privilege, the code has the ability to read, modify and transmit any sensitive data accessible by the browser. A Cross-site Scripted user could have his/her account hijacked (cookie theft), their browser redirected to another location, or possibly shown fraudulent content delivered by the web site they are visiting. Cross-site Scripting attacks essentially compromise the trust relationship between a user and the web site. Applications utilizing browser object instances which load content from the file system may execute code under the local machine zone allowing for system compromise.</p><p></p><p>There are three types of Cross-site Scripting attacks: non-persistent, persistent and DOM-based.</p><p>Non-persistent attacks and DOM-based attacks require a user to either visit a specially crafted link laced with malicious code, or visit a malicious web page containing a web form, which when posted to the vulnerable site, will mount the attack. Using a malicious form will oftentimes take place when the vulnerable resource only accepts HTTP POST requests. In such a case, the form can be submitted automatically, without the victim's knowledge (e.g. by using JavaScript). Upon clicking on the malicious link or submitting the malicious form, the XSS payload will get echoed back and will get interpreted by the user's browser and execute. Another technique to send almost arbitrary requests (GET and POST) is by using an embedded client, such as Adobe Flash.</p><p>Persistent attacks occur when the malicious code is submitted to a web site where it's stored for a period of time. Examples of an attacker's favorite targets often include message board posts, web mail messages, and web chat software. The unsuspecting user is not required to interact with any additional site/link (e.g. an attacker site or a malicious link sent via email), just simply view the web page containing the code.</p>",
+    "param": "id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Path Traversal",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/fi/",
+    "url": "http://localhost:8080/vulnerabilities/fi/?page=%2Fetc%2Fpasswd",
+    "confidence": "2",
+    "cweid": "22",
+    "desc": "<p>The Path Traversal attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory. An attacker may manipulate a URL in such a way that the web site will execute or reveal the contents of arbitrary files anywhere on the web server. Any device that exposes an HTTP-based interface is potentially vulnerable to Path Traversal.</p><p></p><p>Most web sites restrict user access to a specific portion of the file-system, typically called the \"web document root\" or \"CGI root\" directory. These directories contain the files intended for user access and the executable necessary to drive web application functionality. To access files or execute commands anywhere on the file-system, Path Traversal attacks will utilize the ability of special-characters sequences.</p><p></p><p>The most basic Path Traversal attack uses the \"../\" special-character sequence to alter the resource location requested in the URL. Although most popular web servers will prevent this technique from escaping the web document root, alternate encodings of the \"../\" sequence may help bypass the security filters. These method variations include valid and invalid Unicode-encoding (\"..%u2216\" or \"..%c0%af\") of the forward slash character, backslash characters (\"..\\\") on Windows-based servers, URL encoded characters \"%2e%2e%2f\"), and double URL encoding (\"..%255c\") of the backslash character.</p><p></p><p>Even if the web server properly restricts Path Traversal attempts in the URL path, a web application itself may still be vulnerable due to improper handling of user-supplied input. This is a common problem of web applications that use template mechanisms or load static text from files. In variations of the attack, the original URL parameter value is substituted with the file name of one of the web application's dynamic scripts. Consequently, the results can reveal source code because the file is interpreted as text instead of an executable script. These techniques often employ additional special characters such as the dot (\".\") to reveal the listing of the current working directory, or \"%00\" NULL characters in order to bypass rudimentary file extension checks.</p>",
+    "param": "page"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Remote File Inclusion",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/fi/",
+    "url": "http://localhost:8080/vulnerabilities/fi/?page=http%3A%2F%2Fwww.google.com%2F",
+    "confidence": "2",
+    "cweid": "98",
+    "desc": "<p>Remote File Include (RFI) is an attack technique used to exploit \"dynamic file include\" mechanisms in web applications. When web applications take user input (URL, parameter value, etc.) and pass them into file include commands, the web application might be tricked into including remote files with malicious code.</p><p></p><p>Almost all web application frameworks support file inclusion. File inclusion is mainly used for packaging common code into separate files that are later referenced by main application modules. When a web application references an include file, the code in this file may be executed implicitly or explicitly by calling specific procedures. If the choice of module to load is based on elements from the HTTP request, the web application might be vulnerable to RFI.</p><p>An attacker can use RFI for:</p><p>    * Running malicious code on the server: any code in the included malicious files will be run by the server. If the file include is not executed using some wrapper, code in include files is executed in the context of the server user. This could lead to a complete system compromise.</p><p>    * Running malicious code on clients: the attacker's malicious code can manipulate the content of the response sent to the client. The attacker can embed malicious code in the response that will be run by the client (for example, JavaScript to steal the client session cookies).</p><p></p><p>PHP is particularly vulnerable to RFI attacks due to the extensive use of \"file includes\" in PHP programming and due to default server configurations that increase susceptibility to an RFI attack.</p>",
+    "param": "page"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Remote OS Command Injection (Time Based)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/open_redirect/",
+    "url": "http://localhost:8080/vulnerabilities/open_redirect/?redirect=info%22%26sleep+1.0%26%22",
+    "confidence": "2",
+    "cweid": "78",
+    "desc": "<p>Attack technique used for unauthorized execution of operating system commands. This attack is possible when an application accepts untrusted input to build operating system commands in an insecure manner involving improper data sanitization, and/or improper calling of external programs.</p>",
+    "param": "redirect"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "SQL Injection - MySQL",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&username=%27",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>SQL injection may be possible.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "SQL Injection - MySQL (Time Based)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&username=admin",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>SQL injection may be possible.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "SQL Injection - Oracle (Time Based)",
+    "severity": "high",
+    "severity_raw": "High (Medium)",
+    "endpoint": "/vulnerabilities/exec/",
+    "url": "http://localhost:8080/vulnerabilities/exec/?Submit=Submit&ip=127.0.0.1",
+    "confidence": "2",
+    "cweid": "89",
+    "desc": "<p>SQL injection may be possible.</p>",
+    "param": "Submit"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Absence of Anti-CSRF Tokens",
+    "severity": "medium",
+    "severity_raw": "Medium (Low)",
+    "endpoint": "/vulnerabilities/captcha/",
+    "url": "http://localhost:8080/vulnerabilities/captcha/",
+    "confidence": "1",
+    "cweid": "352",
+    "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Application Error Disclosure",
+    "severity": "medium",
+    "severity_raw": "Medium (Medium)",
+    "endpoint": "/README.ar.md",
+    "url": "http://localhost:8080/README.ar.md",
+    "confidence": "2",
+    "cweid": "550",
+    "desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "CSP: Failure to Define Directive with No Fallback",
+    "severity": "medium",
+    "severity_raw": "Medium (High)",
+    "endpoint": "/vulnerabilities/csp/",
+    "url": "http://localhost:8080/vulnerabilities/csp/",
+    "confidence": "3",
+    "cweid": "693",
+    "desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
+    "param": "Content-Security-Policy"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "CSP: Wildcard Directive",
+    "severity": "medium",
+    "severity_raw": "Medium (High)",
+    "endpoint": "/vulnerabilities/csp/",
+    "url": "http://localhost:8080/vulnerabilities/csp/",
+    "confidence": "3",
+    "cweid": "693",
+    "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+    "param": "Content-Security-Policy"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "CSP: style-src unsafe-inline",
+    "severity": "medium",
+    "severity_raw": "Medium (High)",
+    "endpoint": "/vulnerabilities/csp/",
+    "url": "http://localhost:8080/vulnerabilities/csp/",
+    "confidence": "3",
+    "cweid": "693",
+    "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+    "param": "Content-Security-Policy"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Content Security Policy (CSP) Header Not Set",
+    "severity": "medium",
+    "severity_raw": "Medium (High)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "3",
+    "cweid": "693",
+    "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Hidden File Found",
+    "severity": "medium",
+    "severity_raw": "Medium (Low)",
+    "endpoint": "/vulnerabilities/sqli/test.php",
+    "url": "http://localhost:8080/vulnerabilities/sqli/test.php",
+    "confidence": "1",
+    "cweid": "538",
+    "desc": "<p>A sensitive file was identified as accessible or available. This may leak administrative, configuration, or credential information which can be leveraged by a malicious individual to further attack the system or conduct social engineering efforts.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Missing Anti-clickjacking Header",
+    "severity": "medium",
+    "severity_raw": "Medium (Medium)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "2",
+    "cweid": "1021",
+    "desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
+    "param": "x-frame-options"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Parameter Tampering",
+    "severity": "medium",
+    "severity_raw": "Medium (Low)",
+    "endpoint": "/vulnerabilities/brute/",
+    "url": "http://localhost:8080/vulnerabilities/brute/?Login=Login&password=test&=",
+    "confidence": "1",
+    "cweid": "472",
+    "desc": "<p>Parameter manipulation caused an error page or Java stack trace to be displayed. This indicated lack of exception handling and potential areas for further exploit.</p>",
+    "param": "username"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Sub Resource Integrity Attribute Missing",
+    "severity": "medium",
+    "severity_raw": "Medium (High)",
+    "endpoint": "/vulnerabilities/captcha/",
+    "url": "http://localhost:8080/vulnerabilities/captcha/",
+    "confidence": "3",
+    "cweid": "345",
+    "desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Big Redirect Detected (Potential Sensitive Information Leak)",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/config",
+    "url": "http://localhost:8080/config",
+    "confidence": "2",
+    "cweid": "201",
+    "desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Cookie No HttpOnly Flag",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "2",
+    "cweid": "1004",
+    "desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
+    "param": "PHPSESSID"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Cookie without SameSite Attribute",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "2",
+    "cweid": "1275",
+    "desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+    "param": "PHPSESSID"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Cross-Domain JavaScript Source File Inclusion",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/vulnerabilities/captcha/",
+    "url": "http://localhost:8080/vulnerabilities/captcha/",
+    "confidence": "2",
+    "cweid": "829",
+    "desc": "<p>The page includes one or more script files from a third-party domain.</p>",
+    "param": "https://www.google.com/recaptcha/api.js"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "In Page Banner Information Leak",
+    "severity": "low",
+    "severity_raw": "Low (High)",
+    "endpoint": "/dvwa/",
+    "url": "http://localhost:8080/dvwa/",
+    "confidence": "3",
+    "cweid": "497",
+    "desc": "<p>The server returned a version banner string in the response content. Such information leaks may allow attackers to further target specific issues impacting the product and version in use.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Information Disclosure - Debug Error Messages",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/README.ar.md",
+    "url": "http://localhost:8080/README.ar.md",
+    "confidence": "2",
+    "cweid": "1295",
+    "desc": "<p>The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Private IP Disclosure",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/phpinfo.php",
+    "url": "http://localhost:8080/phpinfo.php",
+    "confidence": "2",
+    "cweid": "497",
+    "desc": "<p>A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "2",
+    "cweid": "497",
+    "desc": "<p>The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+    "severity": "low",
+    "severity_raw": "Low (High)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "3",
+    "cweid": "497",
+    "desc": "<p>The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Timestamp Disclosure - Unix",
+    "severity": "low",
+    "severity_raw": "Low (Low)",
+    "endpoint": "/phpinfo.php",
+    "url": "http://localhost:8080/phpinfo.php",
+    "confidence": "1",
+    "cweid": "497",
+    "desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "X-Content-Type-Options Header Missing",
+    "severity": "low",
+    "severity_raw": "Low (Medium)",
+    "endpoint": "/",
+    "url": "http://localhost:8080/",
+    "confidence": "2",
+    "cweid": "693",
+    "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
+    "param": "x-content-type-options"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": ".htaccess Information Leak",
+    "severity": "informational",
+    "severity_raw": "Informational (Low)",
+    "endpoint": "/.htaccess",
+    "url": "http://localhost:8080/.htaccess",
+    "confidence": "1",
+    "cweid": "94",
+    "desc": "<p>htaccess files can be used to alter the configuration of the Apache Web Server software to enable/disable additional functionality and features that the Apache Web Server software has to offer.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Cookie Poisoning",
+    "severity": "informational",
+    "severity_raw": "Informational (Low)",
+    "endpoint": "/security.php",
+    "url": "http://localhost:8080/security.php",
+    "confidence": "1",
+    "cweid": "565",
+    "desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where cookie parameters might be controlled. This is called a cookie poisoning attack, and becomes exploitable when an attacker can manipulate the cookie in various ways. In some cases this will not be exploitable, however, allowing URL parameters to set cookie values is generally considered a bug.</p>",
+    "param": "security"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Hidden File Found",
+    "severity": "informational",
+    "severity_raw": "Informational (Low)",
+    "endpoint": "/server-status",
+    "url": "http://localhost:8080/server-status",
+    "confidence": "1",
+    "cweid": "538",
+    "desc": "<p>A sensitive file was identified as accessible or available. This may leak administrative, configuration, or credential information which can be leveraged by a malicious individual to further attack the system or conduct social engineering efforts.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Information Disclosure - Sensitive Information in URL",
+    "severity": "informational",
+    "severity_raw": "Informational (Medium)",
+    "endpoint": "/vulnerabilities/bac/",
+    "url": "http://localhost:8080/vulnerabilities/bac/?action=View+Profile&user_id=1",
+    "confidence": "2",
+    "cweid": "598",
+    "desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
+    "param": "user_id"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Information Disclosure - Suspicious Comments",
+    "severity": "informational",
+    "severity_raw": "Informational (Medium)",
+    "endpoint": "/setup.php",
+    "url": "http://localhost:8080/setup.php",
+    "confidence": "2",
+    "cweid": "615",
+    "desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "Modern Web Application",
+    "severity": "informational",
+    "severity_raw": "Informational (Medium)",
+    "endpoint": "",
+    "url": "http://localhost:8080",
+    "confidence": "2",
+    "cweid": "-1",
+    "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
+    "param": ""
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "User Agent Fuzzer",
+    "severity": "informational",
+    "severity_raw": "Informational (Medium)",
+    "endpoint": "/phpinfo.php",
+    "url": "http://localhost:8080/phpinfo.php",
+    "confidence": "2",
+    "cweid": "",
+    "desc": "<p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>",
+    "param": "Header User-Agent"
+  },
+  {
+    "tool": "owasp-zap",
+    "vulnerability": "User Controllable HTML Element Attribute (Potential XSS)",
+    "severity": "informational",
+    "severity_raw": "Informational (Low)",
+    "endpoint": "/instructions.php",
+    "url": "http://localhost:8080/instructions.php?doc=readme",
+    "confidence": "1",
+    "cweid": "20",
+    "desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
+    "param": "doc"
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Trinity Audio <= 5.21.0 - Information Exposure",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/wp-content/plugins/trinity-audio/admin/inc/phpinfo.php",
+    "url": "http://dast-target-container:80/phpinfo.php/wp-content/plugins/trinity-audio/admin/inc/phpinfo.php",
+    "confidence": "high",
+    "info": {
+      "name": "Trinity Audio <= 5.21.0 - Information Exposure",
+      "author": [
+        "kazgangap"
+      ],
+      "tags": [
+        "cve",
+        "cve2025",
+        "wp-plugin",
+        "wordpress",
+        "trinity-audio",
+        "exposure",
+        "vuln"
+      ],
+      "description": "The Trinity Audio Text to Speech AI audio player to convert content into audio plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.21.0 via the ~/admin/inc/phpinfo.php file that gets created on install. This makes it possible for unauthenticated attackers to extract sensitive data including configuration data.\n",
+      "impact": "Unauthenticated attackers can extract sensitive configuration data, potentially aiding further attacks.\n",
+      "reference": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/trinity-audio/trinity-audio-5210-unauthenticated-information-exposure",
+        "https://nvd.nist.gov/vuln/detail/CVE-2025-9196"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "product": "trinity-audio",
+        "framework": "wordpress",
+        "fofa-query": "body=\"/wp-content/plugins/trinity-audio\"",
+        "verified": true,
+        "max-request": 1,
+        "vendor": "sergiotrinity"
+      },
+      "classification": {
+        "cve-id": [
+          "cve-2025-9196"
+        ],
+        "cwe-id": [
+          "cwe-200"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "cvss-score": 5.3,
+        "epss-score": 0.0035,
+        "epss-percentile": 0.57353
+      },
+      "remediation": "Update to the latest version beyond 5.21.0.\n"
+    },
+    "cwe": null,
+    "template-id": "CVE-2025-9196",
+    "cve-id": [
+      "cve-2025-9196"
+    ],
+    "tags": [
+      "cve",
+      "cve2025",
+      "wp-plugin",
+      "wordpress",
+      "trinity-audio",
+      "exposure",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "PHPinfo Page - Detect",
+    "severity": "Low",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/php_info.php",
+    "url": "http://dast-target-container:80/phpinfo.php/php_info.php",
+    "confidence": "high",
+    "info": {
+      "name": "PHPinfo Page - Detect",
+      "author": [
+        "pdteam",
+        "daffainfo",
+        "meme-lord",
+        "dhiyaneshdk",
+        "wabafet",
+        "mastercho"
+      ],
+      "tags": [
+        "config",
+        "exposure",
+        "phpinfo",
+        "vuln"
+      ],
+      "description": "PHPinfo page was detected. The output of the phpinfo() command can reveal sensitive and detailed PHP environment information.\n",
+      "severity": "low",
+      "metadata": {
+        "max-request": 25
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ]
+      },
+      "remediation": "Remove PHP Info pages from publicly accessible sites, or restrict access to authorized users only."
+    },
+    "cwe": null,
+    "template-id": "phpinfo-files",
+    "cve-id": null,
+    "tags": [
+      "config",
+      "exposure",
+      "phpinfo",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "PHPinfo Page - Detect",
+    "severity": "Low",
+    "endpoint": "http://dast-target-container:80/phpinfo.php",
+    "url": "http://dast-target-container:80/phpinfo.php",
+    "confidence": "high",
+    "info": {
+      "name": "PHPinfo Page - Detect",
+      "author": [
+        "pdteam",
+        "daffainfo",
+        "meme-lord",
+        "dhiyaneshdk",
+        "wabafet",
+        "mastercho"
+      ],
+      "tags": [
+        "config",
+        "exposure",
+        "phpinfo",
+        "vuln"
+      ],
+      "description": "PHPinfo page was detected. The output of the phpinfo() command can reveal sensitive and detailed PHP environment information.\n",
+      "severity": "low",
+      "metadata": {
+        "max-request": 25
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ]
+      },
+      "remediation": "Remove PHP Info pages from publicly accessible sites, or restrict access to authorized users only."
+    },
+    "cwe": null,
+    "template-id": "phpinfo-files",
+    "cve-id": null,
+    "tags": [
+      "config",
+      "exposure",
+      "phpinfo",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Fuzzing Parameters - Cross-Site Scripting",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/vulnerabilities/xss_r/?name=test&name=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-name%27%29%3E&json=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-json%27%29%3E&id_base=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-id_base%27%29%3E&where=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-where%27%29%3E&request=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-request%27%29%3E&notes=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-notes%27%29%3E&img=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-img%27%29%3E&a=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-a%27%29%3E&menu-item=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-menu-item%27%29%3E&xml=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-xml%27%29%3E&columns=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-columns%27%29%3E&service=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-service%27%29%3E&site_id=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-site_id%27%29%3E",
+    "url": "http://dast-target-container:80/vulnerabilities/xss_r/?name=test&name=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-name%27%29%3E&json=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-json%27%29%3E&id_base=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-id_base%27%29%3E&where=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-where%27%29%3E&request=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-request%27%29%3E&notes=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-notes%27%29%3E&img=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-img%27%29%3E&a=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-a%27%29%3E&menu-item=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-menu-item%27%29%3E&xml=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-xml%27%29%3E&columns=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-columns%27%29%3E&service=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-service%27%29%3E&site_id=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-site_id%27%29%3E",
+    "confidence": "high",
+    "info": {
+      "name": "Fuzzing Parameters - Cross-Site Scripting",
+      "author": [
+        "kazet"
+      ],
+      "tags": [
+        "xss",
+        "generic",
+        "vuln"
+      ],
+      "description": "Cross-site scripting was discovered via a search for reflected parameter values in the server response via GET-requests.\n",
+      "severity": "medium",
+      "metadata": {
+        "max-request": 29,
+        "parameters": "q,s,search,id,action,keyword,query,page,keywords,url,view,cat,name,key,p,month,page_id,password,terms,token,type,unsubscribe_token,api,api_key,begindate,callback,categoryid,csrf_token,email,emailto,enddate,immagine,item,jsonp,l,lang,list_type,year"
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-79"
+        ]
+      }
+    },
+    "cwe": null,
+    "template-id": "xss-fuzz",
+    "cve-id": null,
+    "tags": [
+      "xss",
+      "generic",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "UEditor - PHP Arbitrary File Upload",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/php/upload/Hfd6C.php",
+    "url": "http://dast-target-container:80/phpinfo.php/php/upload/Hfd6C.php",
+    "confidence": "high",
+    "info": {
+      "name": "UEditor - PHP Arbitrary File Upload",
+      "author": [
+        "chiragartani"
+      ],
+      "tags": [
+        "ueditor",
+        "file-upload",
+        "rce",
+        "intrusive",
+        "vuln"
+      ],
+      "description": "Detects arbitrary file upload vulnerability in UEditor PHP  by attempting to upload and execute a PHP file. This vulnerability allows remote attackers to upload arbitrary files including PHP files, potentially leading to remote code execution.\n",
+      "reference": [
+        "https://www.rescuetime.com/focus/url/https%3A%2F%2Fwww.cnblogs.com%2Fzhibing%2Fp%2F16893839.html%23_4"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "fofa-query": "body=\"ueditor\"",
+        "vendor": "baidu",
+        "product": "ueditor",
+        "max-request": 2
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-434"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "cvss-score": 6.1,
+        "cpe": "cpe:2.3:a:baidu:ueditor:*:*:*:*:*:*:*:*"
+      }
+    },
+    "cwe": null,
+    "template-id": "ueditor-arbitrary-file-upload",
+    "cve-id": null,
+    "tags": [
+      "ueditor",
+      "file-upload",
+      "rce",
+      "intrusive",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "phpfastcache - phpinfo Resource Exposure",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/vendor/phpfastcache/phpfastcache/docs/examples/phpinfo.php",
+    "url": "http://dast-target-container:80/phpinfo.php/vendor/phpfastcache/phpfastcache/docs/examples/phpinfo.php",
+    "confidence": "high",
+    "info": {
+      "name": "phpfastcache - phpinfo Resource Exposure",
+      "author": [
+        "whoever"
+      ],
+      "tags": [
+        "cve2021",
+        "cve",
+        "exposure",
+        "phpfastcache",
+        "phpinfo",
+        "phpsocialnetwork",
+        "vuln"
+      ],
+      "description": "phpinfo() is susceptible to resource exposure in unprotected composer vendor folders via phpfastcache/phpfastcache.",
+      "impact": "An attacker can gain access to sensitive information, such as server configuration details, PHP version, and installed extensions.\n",
+      "reference": [
+        "https://github.com/PHPSocialNetwork/phpfastcache/pull/813",
+        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37704",
+        "https://github.com/PHPSocialNetwork/phpfastcache/security/advisories/GHSA-cvh5-p6r6-g2qc",
+        "https://packagist.org/packages/phpfastcache/phpfastcache",
+        "https://github.com/PHPSocialNetwork/phpfastcache/blob/master/CHANGELOG.md#807",
+        "https://github.com/PHPSocialNetwork/phpfastcache/commit/41a77d0d8f126dbd6fbedcd9e6a82e86cdaafa51"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "max-request": 2,
+        "vendor": "phpfastcache",
+        "product": "phpfastcache"
+      },
+      "classification": {
+        "cve-id": [
+          "cve-2021-37704"
+        ],
+        "cwe-id": [
+          "cwe-668",
+          "cwe-200"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "cvss-score": 4.3,
+        "epss-score": 0.47802,
+        "epss-percentile": 0.97687,
+        "cpe": "cpe:2.3:a:phpfastcache:phpfastcache:*:*:*:*:*:*:*:*"
+      },
+      "remediation": "Remove or restrict access to the phpinfo.php file in the phpfastcache library.\n"
+    },
+    "cwe": null,
+    "template-id": "CVE-2021-37704",
+    "cve-id": [
+      "cve-2021-37704"
+    ],
+    "tags": [
+      "cve2021",
+      "cve",
+      "exposure",
+      "phpfastcache",
+      "phpinfo",
+      "phpsocialnetwork",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "MAMP - PHP Info Exposure",
+    "severity": "Low",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/MAMP/phpinfo.php",
+    "url": "http://dast-target-container:80/phpinfo.php/MAMP/phpinfo.php",
+    "confidence": "high",
+    "info": {
+      "name": "MAMP - PHP Info Exposure",
+      "author": [
+        "0x_akoko"
+      ],
+      "tags": [
+        "mamp",
+        "phpinfo",
+        "exposure",
+        "misconfig"
+      ],
+      "description": "Detected MAMP server was exposed phpinfo() page, revealing sensitive PHP configuration, server paths, and environment variables.\n",
+      "reference": [
+        "https://www.mamp.info/",
+        "https://www.acunetix.com/vulnerabilities/web/phpinfo-pages/"
+      ],
+      "severity": "low",
+      "metadata": {
+        "verified": true,
+        "max-request": 1,
+        "fofa-query": "title=\"MAMP\""
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "cvss-score": 5.3
+      }
+    },
+    "cwe": null,
+    "template-id": "mamp-phpinfo-exposure",
+    "cve-id": null,
+    "tags": [
+      "mamp",
+      "phpinfo",
+      "exposure",
+      "misconfig"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Dockerfile - Detect",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/Dockerfile",
+    "url": "http://dast-target-container:80/Dockerfile",
+    "confidence": "high",
+    "info": {
+      "name": "Dockerfile - Detect",
+      "author": [
+        "dhiyaneshdk"
+      ],
+      "tags": [
+        "exposure",
+        "config",
+        "vuln"
+      ],
+      "description": "Dockerfile was detected.",
+      "reference": [
+        "https://github.com/detectify/ugly-duckling/blob/master/modules/crowdsourced/dockerfile-hidden-disclosure.json"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "max-request": 3
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "cvss-score": 5.3
+      }
+    },
+    "cwe": null,
+    "template-id": "dockerfile-hidden-disclosure",
+    "cve-id": null,
+    "tags": [
+      "exposure",
+      "config",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Test CGI Script - Detect",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/cgi-bin/printenv.pl",
+    "url": "http://dast-target-container:80/phpinfo.php/cgi-bin/printenv.pl",
+    "confidence": "high",
+    "info": {
+      "name": "Test CGI Script - Detect",
+      "author": [
+        "emadshanab"
+      ],
+      "tags": [
+        "exposure",
+        "cgi",
+        "vuln"
+      ],
+      "description": "Test CGI script was detected. Response page returned by this CGI script exposes a list of server environment variables.",
+      "reference": [
+        "https://www.acunetix.com/vulnerabilities/web/test-cgi-script-leaking-environment-variables/"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "max-request": 1
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "cvss-score": 5.3
+      }
+    },
+    "cwe": null,
+    "template-id": "cgi-printenv",
+    "cve-id": null,
+    "tags": [
+      "exposure",
+      "cgi",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "info.cgi  Environment Variable - Disclosure",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/info.cgi",
+    "url": "http://dast-target-container:80/phpinfo.php/info.cgi",
+    "confidence": "high",
+    "info": {
+      "name": "info.cgi  Environment Variable - Disclosure",
+      "author": [
+        "pussycat0x"
+      ],
+      "tags": [
+        "cgi",
+        "exposure",
+        "info",
+        "env",
+        "disclosure",
+        "generic"
+      ],
+      "description": "Detected exposure of server environment variables through the info.cgi script. This can leak sensitive paths, internal IPs, software versions, credentials in env, etc.\n",
+      "reference": [
+        "https://www.acunetix.com/vulnerabilities/web/test-cgi-script-leaking-environment-variables/",
+        "https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "verified": true,
+        "max-request": 5
+      }
+    },
+    "cwe": null,
+    "template-id": "info-cgi-env-leak",
+    "cve-id": [],
+    "tags": [
+      "cgi",
+      "exposure",
+      "info",
+      "env",
+      "disclosure",
+      "generic"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "YesWiki <2022-07-07 - SQL Injection",
+    "severity": "Critical",
+    "endpoint": "http://dast-target-container:80/vulnerabilities/sqli/?id=1&id=1%27+and+extractvalue(0x0a,concat(0x0a,(select+concat_ws(0x207c20,md5(999999999),1,user()))))--+-&Submit=Submit&PagePrincipale/rss",
+    "url": "http://dast-target-container:80/vulnerabilities/sqli/?id=1&id=1%27+and+extractvalue(0x0a,concat(0x0a,(select+concat_ws(0x207c20,md5(999999999),1,user()))))--+-&Submit=Submit&PagePrincipale/rss",
+    "confidence": "high",
+    "info": {
+      "name": "YesWiki <2022-07-07 - SQL Injection",
+      "author": [
+        "arafatansari"
+      ],
+      "tags": [
+        "yeswiki",
+        "sqli",
+        "huntr",
+        "vuln"
+      ],
+      "description": "YesWiki before 2022-07-07 contains a SQL injection vulnerability via the id parameter in the AccueiL URL. An attacker can possibly obtain sensitive information from a database, modify data, and execute unauthorized administrative operations in the context of the affected site.\n",
+      "reference": [
+        "https://huntr.dev/bounties/32e27955-376a-48fe-9984-87dd77e24985"
+      ],
+      "severity": "critical",
+      "metadata": {
+        "vendor": "yeswiki",
+        "verified": true,
+        "max-request": 1,
+        "shodan-query": "http.html:\"yeswiki\"",
+        "product": "cercopitheque"
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-89"
+        ],
+        "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+        "cvss-score": 10,
+        "cpe": "cpe:2.3:a:yeswiki:cercopitheque:*:*:*:*:*:*:*:*"
+      }
+    },
+    "cwe": null,
+    "template-id": "yeswiki-sql",
+    "cve-id": null,
+    "tags": [
+      "yeswiki",
+      "sqli",
+      "huntr",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Top 38 Parameters - Cross-Site Scripting",
+    "severity": "High",
+    "endpoint": "http://dast-target-container:80/vulnerabilities/xss_r/?name=test&name=%27%3E%22%3Csvg%2Fonload=confirm%28%27name%27%29%3E&q=%27%3E%22%3Csvg%2Fonload=confirm%28%27q%27%29%3E&s=%27%3E%22%3Csvg%2Fonload=confirm%28%27s%27%29%3E&search=%27%3E%22%3Csvg%2Fonload=confirm%28%27search%27%29%3E&id=%27%3E%22%3Csvg%2Fonload=confirm%28%27id%27%29%3E&action=%27%3E%22%3Csvg%2Fonload=confirm%28%27action%27%29%3E&keyword=%27%3E%22%3Csvg%2Fonload=confirm%28%27keyword%27%29%3E&query=%27%3E%22%3Csvg%2Fonload=confirm%28%27query%27%29%3E&page=%27%3E%22%3Csvg%2Fonload=confirm%28%27page%27%29%3E&keywords=%27%3E%22%3Csvg%2Fonload=confirm%28%27keywords%27%29%3E&url=%27%3E%22%3Csvg%2Fonload=confirm%28%27url%27%29%3E&view=%27%3E%22%3Csvg%2Fonload=confirm%28%27view%27%29%3E&cat=%27%3E%22%3Csvg%2Fonload=confirm%28%27cat%27%29%3E&key=%27%3E%22%3Csvg%2Fonload=confirm%28%27key%27%29%3E&p=%27%3E%22%3Csvg%2Fonload=confirm%28%27p%27%29%3E",
+    "url": "http://dast-target-container:80/vulnerabilities/xss_r/?name=test&name=%27%3E%22%3Csvg%2Fonload=confirm%28%27name%27%29%3E&q=%27%3E%22%3Csvg%2Fonload=confirm%28%27q%27%29%3E&s=%27%3E%22%3Csvg%2Fonload=confirm%28%27s%27%29%3E&search=%27%3E%22%3Csvg%2Fonload=confirm%28%27search%27%29%3E&id=%27%3E%22%3Csvg%2Fonload=confirm%28%27id%27%29%3E&action=%27%3E%22%3Csvg%2Fonload=confirm%28%27action%27%29%3E&keyword=%27%3E%22%3Csvg%2Fonload=confirm%28%27keyword%27%29%3E&query=%27%3E%22%3Csvg%2Fonload=confirm%28%27query%27%29%3E&page=%27%3E%22%3Csvg%2Fonload=confirm%28%27page%27%29%3E&keywords=%27%3E%22%3Csvg%2Fonload=confirm%28%27keywords%27%29%3E&url=%27%3E%22%3Csvg%2Fonload=confirm%28%27url%27%29%3E&view=%27%3E%22%3Csvg%2Fonload=confirm%28%27view%27%29%3E&cat=%27%3E%22%3Csvg%2Fonload=confirm%28%27cat%27%29%3E&key=%27%3E%22%3Csvg%2Fonload=confirm%28%27key%27%29%3E&p=%27%3E%22%3Csvg%2Fonload=confirm%28%27p%27%29%3E",
+    "confidence": "high",
+    "info": {
+      "name": "Top 38 Parameters - Cross-Site Scripting",
+      "author": [
+        "foulenzer",
+        "geeknik"
+      ],
+      "tags": [
+        "xss",
+        "generic",
+        "vuln"
+      ],
+      "description": "Cross-site scripting was discovered via a search for reflected parameter values in the server response via GET-requests.",
+      "severity": "high",
+      "metadata": {
+        "max-request": 3,
+        "parameters": "q,s,search,id,action,keyword,query,page,keywords,url,view,cat,name,key,p,month,page_id,password,terms,token,type,unsubscribe_token,api,api_key,begindate,callback,categoryid,csrf_token,email,emailto,enddate,immagine,item,jsonp,l,lang,list_type,year"
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-79"
+        ],
+        "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+        "cvss-score": 7.2
+      }
+    },
+    "cwe": null,
+    "template-id": "top-xss-params",
+    "cve-id": null,
+    "tags": [
+      "xss",
+      "generic",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Laragon - phpinfo Disclosure",
+    "severity": "Low",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/?q=info",
+    "url": "http://dast-target-container:80/phpinfo.php/?q=info",
+    "confidence": "high",
+    "info": {
+      "name": "Laragon - phpinfo Disclosure",
+      "author": [
+        "dhiyaneshdk"
+      ],
+      "tags": [
+        "laragon",
+        "exposure",
+        "misconfig",
+        "vuln"
+      ],
+      "description": "Laragon phpinfo file was exposed.\n",
+      "severity": "low",
+      "metadata": {
+        "shodan-query": "html:\"Laragon\" html:\"phpinfo\"",
+        "verified": true,
+        "max-request": 1
+      }
+    },
+    "cwe": null,
+    "template-id": "laragon-phpinfo",
+    "cve-id": [],
+    "tags": [
+      "laragon",
+      "exposure",
+      "misconfig",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Symfony - Authentication Bypass",
+    "severity": "Medium",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/_fragment?_path=_controller=phpcredits&flag=-1",
+    "url": "http://dast-target-container:80/phpinfo.php/_fragment?_path=_controller=phpcredits&flag=-1",
+    "confidence": "high",
+    "info": {
+      "name": "Symfony - Authentication Bypass",
+      "author": [
+        "elsfa7110",
+        "meme-lord"
+      ],
+      "tags": [
+        "cve2015",
+        "cve",
+        "symfony",
+        "rce",
+        "sensiolabs",
+        "vuln"
+      ],
+      "description": "Symfony 2.3.19 through 2.3.28, 2.4.9 through 2.4.10, 2.5.4 through 2.5.11, and 2.6.0 through 2.6.7, when ESI or SSI support enabled, does not check if the _controller attribute is set, which allows remote attackers to bypass URL signing and security rules by including (1) no hash or (2) an invalid hash in a request to /_fragment in the HttpKernel component.",
+      "impact": "Successful exploitation of this vulnerability could allow an attacker to bypass authentication and gain unauthorized access to the affected system.\n",
+      "reference": [
+        "https://symfony.com/blog/cve-2015-4050-esi-unauthorized-access",
+        "http://symfony.com/blog/cve-2015-4050-esi-unauthorized-access",
+        "http://www.debian.org/security/2015/dsa-3276",
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-4050",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2015-June/159513.html"
+      ],
+      "severity": "medium",
+      "metadata": {
+        "max-request": 1,
+        "vendor": "sensiolabs",
+        "product": "symfony",
+        "shodan-query": "cpe:\"cpe:2.3:a:sensiolabs:symfony\""
+      },
+      "classification": {
+        "cve-id": [
+          "cve-2015-4050"
+        ],
+        "cwe-id": [
+          "cwe-284"
+        ],
+        "cvss-metrics": "CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N",
+        "cvss-score": 4.3,
+        "epss-score": 0.76192,
+        "epss-percentile": 0.98914,
+        "cpe": "cpe:2.3:a:sensiolabs:symfony:2.3.19:*:*:*:*:*:*:*"
+      },
+      "remediation": "Apply the latest security patches or upgrade to a non-vulnerable version of Symfony.\n"
+    },
+    "cwe": null,
+    "template-id": "CVE-2015-4050",
+    "cve-id": [
+      "cve-2015-4050"
+    ],
+    "tags": [
+      "cve2015",
+      "cve",
+      "symfony",
+      "rce",
+      "sensiolabs",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Member Hero <=1.0.9 - Remote Code Execution",
+    "severity": "Critical",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/wp-admin/admin-ajax.php?action=memberhero_send_form&_memberhero_hook=phpinfo",
+    "url": "http://dast-target-container:80/phpinfo.php/wp-admin/admin-ajax.php?action=memberhero_send_form&_memberhero_hook=phpinfo",
+    "confidence": "high",
+    "info": {
+      "name": "Member Hero <=1.0.9 - Remote Code Execution",
+      "author": [
+        "theamanrawat"
+      ],
+      "tags": [
+        "cve",
+        "cve2022",
+        "unauth",
+        "wpscan",
+        "wp-plugin",
+        "rce",
+        "wp",
+        "wordpress",
+        "member-hero",
+        "memberhero",
+        "vkev",
+        "vuln"
+      ],
+      "description": "WordPress Member Hero plugin through 1.0.9 is susceptible to remote code execution. The plugin lacks authorization checks and does not validate the a request parameter in an AJAX action, allowing an attacker to call arbitrary PHP functions with no arguments. An attacker can thus execute malware, obtain sensitive information, modify data, and/or gain full control over a compromised system without entering necessary credentials.\n",
+      "impact": "An attacker can execute arbitrary code on the target system, potentially leading to a complete compromise of the WordPress site.\n",
+      "reference": [
+        "https://wpscan.com/vulnerability/8b08b72e-5584-4f25-ab73-5ab0f47412df",
+        "https://wordpress.org/plugins/member-hero/",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-0885",
+        "https://github.com/ARPSyndicate/kenzer-templates"
+      ],
+      "severity": "critical",
+      "metadata": {
+        "product": "member_hero",
+        "framework": "wordpress",
+        "verified": true,
+        "max-request": 1,
+        "vendor": "memberhero"
+      },
+      "classification": {
+        "cve-id": [
+          "cve-2022-0885"
+        ],
+        "cwe-id": [
+          "cwe-862"
+        ],
+        "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "cvss-score": 9.8,
+        "epss-score": 0.65672,
+        "epss-percentile": 0.98487,
+        "cpe": "cpe:2.3:a:memberhero:member_hero:*:*:*:*:*:wordpress:*:*"
+      },
+      "remediation": "Update to the latest version of the Member Hero plugin (1.0.9 or higher) to mitigate this vulnerability.\n"
+    },
+    "cwe": null,
+    "template-id": "CVE-2022-0885",
+    "cve-id": [
+      "cve-2022-0885"
+    ],
+    "tags": [
+      "cve",
+      "cve2022",
+      "unauth",
+      "wpscan",
+      "wp-plugin",
+      "rce",
+      "wp",
+      "wordpress",
+      "member-hero",
+      "memberhero",
+      "vkev",
+      "vuln"
+    ]
+  },
+  {
+    "tool": "nuclei",
+    "vulnerability": "Ruijie Phpinfo Configuration - Detect",
+    "severity": "Low",
+    "endpoint": "http://dast-target-container:80/phpinfo.php/tool/view/phpinfo.view.php",
+    "url": "http://dast-target-container:80/phpinfo.php/tool/view/phpinfo.view.php",
+    "confidence": "high",
+    "info": {
+      "name": "Ruijie Phpinfo Configuration - Detect",
+      "author": [
+        "pikpikcu"
+      ],
+      "tags": [
+        "phpinfo",
+        "rujjie",
+        "config",
+        "exposure",
+        "ruijie",
+        "vuln"
+      ],
+      "description": "Ruijie phpinfo configuration was detected.",
+      "reference": [
+        "https://github.com/PeiQi0/PeiQi-WIKI-POC/blob/PeiQi/PeiQi_Wiki/%E7%BD%91%E7%BB%9C%E8%AE%BE%E5%A4%87%E6%BC%8F%E6%B4%9E/%E9%94%90%E6%8D%B7/%E9%94%90%E6%8D%B7EG%E6%98%93%E7%BD%91%E5%85%B3%20phpinfo.view.php%20%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2%E6%BC%8F%E6%B4%9E.md"
+      ],
+      "severity": "low",
+      "metadata": {
+        "max-request": 1
+      },
+      "classification": {
+        "cve-id": null,
+        "cwe-id": [
+          "cwe-200"
+        ]
+      }
+    },
+    "cwe": null,
+    "template-id": "ruijie-phpinfo",
+    "cve-id": null,
+    "tags": [
+      "phpinfo",
+      "rujjie",
+      "config",
+      "exposure",
+      "ruijie",
+      "vuln"
+    ]
+  }
+]

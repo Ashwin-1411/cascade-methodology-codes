@@ -1,0 +1,82 @@
+level,case,module,filename,known_cwe,validated_label,oracle,independent_of_prompt,frontend_context_in_prompt,fix_hint_in_prompt,smoke_test,detail
+L0,api_low,api,low.php,78,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,api_medium,api,medium.php,78,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,authbypass_high,authbypass,high.php,284,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
+L0,authbypass_low,authbypass,low.php,284,IFR,unknown,False,False,False,passed,unrecognised reason tag: ''
+L0,authbypass_medium,authbypass,medium.php,284,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
+L0,bac_high,bac,high.php,89,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,bac_low,bac,low.php,89,PIR,target_weakness_mismatch,True,False,False,passed,recorded target CWE is not the module's weakness
+L0,bac_medium,bac,medium.php,89,PIR,target_weakness_mismatch,True,False,False,passed,recorded target CWE is not the module's weakness
+L0,brute_high,brute,high.php,307,PIR,manual_review,True,False,False,inconclusive,independent manual review vs DVWA reference
+L0,brute_low,brute,low.php,89,PIR,target_weakness_mismatch,True,False,False,passed,recorded target CWE is not the module's weakness
+L0,brute_medium,brute,medium.php,307,PIR,manual_review,True,False,False,broken,independent manual review vs DVWA reference
+L0,captcha_high,captcha,high.php,287,CFR,verifier-independent,True,False,False,inconclusive,verifier property not supplied to model
+L0,captcha_low,captcha,low.php,287,CFR,verifier-independent,True,False,False,inconclusive,verifier property not supplied to model
+L0,captcha_medium,captcha,medium.php,287,CFR,verifier-independent,True,False,False,inconclusive,verifier property not supplied to model
+L0,csp_high,csp,high.php,693,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,csp_low,csp,low.php,693,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,csp_medium,csp,medium.php,693,CFR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
+L0,csrf_high,csrf,high.php,352,CFR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,csrf_low,csrf,low.php,352,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,csrf_medium,csrf,medium.php,352,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,exec_high,exec,high.php,78,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,exec_low,exec,low.php,78,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,exec_medium,exec,medium.php,78,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,fi_high,fi,high.php,22,PIR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,fi_low,fi,low.php,22,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,fi_medium,fi,medium.php,22,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,javascript_high,javascript,high.php,602,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,javascript_low,javascript,low.php,602,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,javascript_medium,javascript,medium.php,602,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,open_redirect_high,open_redirect,high.php,601,PIR,replay,True,False,False,passed,exploit replay (L0): STILL_EXPLOITABLE
+L0,open_redirect_low,open_redirect,low.php,601,PIR,replay,True,False,False,passed,exploit replay (L0): STILL_EXPLOITABLE
+L0,open_redirect_medium,open_redirect,medium.php,601,PIR,replay,True,False,False,passed,exploit replay (L0): STILL_EXPLOITABLE
+L0,sqli_high,sqli,high.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,sqli_low,sqli,low.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,sqli_medium,sqli,medium.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,sqli_blind_high,sqli_blind,high.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,sqli_blind_low,sqli_blind,low.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,sqli_blind_medium,sqli_blind,medium.php,89,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,upload_high,upload,high.php,434,CFR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,upload_low,upload,low.php,434,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,upload_medium,upload,medium.php,434,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,weak_id_high,weak_id,high.php,330,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
+L0,weak_id_low,weak_id,low.php,330,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
+L0,weak_id_medium,weak_id,medium.php,330,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,xss_d_high,xss_d,high.php,79,CFR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,xss_d_low,xss_d,low.php,79,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,xss_d_medium,xss_d,medium.php,79,CFR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L0,xss_r_high,xss_r,high.php,79,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,xss_r_low,xss_r,low.php,79,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,xss_r_medium,xss_r,medium.php,79,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,xss_s_high,xss_s,high.php,79,PIR,replay,True,False,False,passed,exploit replay (L0): STILL_EXPLOITABLE
+L0,xss_s_low,xss_s,low.php,79,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L0,xss_s_medium,xss_s,medium.php,79,CFR,replay,True,False,False,passed,exploit replay (L0): MITIGATED
+L1,authbypass_high,authbypass,high.php,284,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,authbypass_low,authbypass,low.php,284,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,authbypass_medium,authbypass,medium.php,284,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,csrf_low,csrf,low.php,352,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,csrf_medium,csrf,medium.php,352,PIR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,fi_high,fi,high.php,22,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,javascript_high,javascript,high.php,602,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,javascript_low,javascript,low.php,602,PIR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,javascript_medium,javascript,medium.php,602,CFR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L1,open_redirect_high,open_redirect,high.php,601,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,open_redirect_low,open_redirect,low.php,601,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,open_redirect_medium,open_redirect,medium.php,601,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,upload_low,upload,low.php,434,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,upload_medium,upload,medium.php,434,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,weak_id_low,weak_id,low.php,330,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
+L1,weak_id_medium,weak_id,medium.php,330,PIR,verifier-independent,True,False,False,passed,verifier property not supplied to model
+L1,xss_d_low,xss_d,low.php,79,PIR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
+L2,csrf_medium,csrf,medium.php,352,CFR,verifier-conformity,False,True,True,passed,verifier property also supplied to model via frontend context + fix hint
+L2,fi_high,fi,high.php,22,CFR,replay,True,False,False,passed,exploit replay (L2): MITIGATED
+L2,javascript_low,javascript,low.php,602,IFR,unknown,False,True,True,passed,unrecognised reason tag: ''
+L2,open_redirect_high,open_redirect,high.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
+L2,open_redirect_low,open_redirect,low.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
+L2,open_redirect_medium,open_redirect,medium.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
+L2,upload_low,upload,low.php,434,CFR,verifier-conformity,False,False,True,passed,verifier property also supplied to model via fix hint
+L2,upload_medium,upload,medium.php,434,CFR,verifier-conformity,False,False,True,passed,verifier property also supplied to model via fix hint
+L2,weak_id_low,weak_id,low.php,330,PIR,verifier-conformity,False,False,True,broken,verifier property also supplied to model via fix hint
+L2,weak_id_medium,weak_id,medium.php,330,CFR,verifier-conformity,False,False,True,passed,verifier property also supplied to model via fix hint
+L2,xss_d_low,xss_d,low.php,79,CFR,verifier-conformity,False,True,True,passed,verifier property also supplied to model via frontend context + fix hint

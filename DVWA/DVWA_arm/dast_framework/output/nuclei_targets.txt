@@ -1,0 +1,12 @@
+http://dast-target-container:80
+http://dast-target-container:80/vulnerabilities/sqli/?id=1&Submit=Submit
+http://dast-target-container:80/vulnerabilities/sqli_blind/?id=1&Submit=Submit
+http://dast-target-container:80/vulnerabilities/xss_r/?name=test
+http://dast-target-container:80/vulnerabilities/xss_s/
+http://dast-target-container:80/vulnerabilities/xss_d/?default=English
+http://dast-target-container:80/vulnerabilities/exec/?ip=127.0.0.1&Submit=Submit
+http://dast-target-container:80/vulnerabilities/fi/?page=file1.php
+http://dast-target-container:80/vulnerabilities/upload/
+http://dast-target-container:80/vulnerabilities/open_redirect/?redirect=info
+http://dast-target-container:80/vulnerabilities/brute/?username=admin&password=test&Login=Login
+http://dast-target-container:80/phpinfo.php

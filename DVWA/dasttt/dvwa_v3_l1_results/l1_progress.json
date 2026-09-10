@@ -1,0 +1,189 @@
+{
+  "authbypass_high": {
+    "case_id": "authbypass_high",
+    "vuln_dir": "authbypass",
+    "filename": "high.php",
+    "cwe_id": "284",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 2.9,
+    "fix_len": 554
+  },
+  "authbypass_low": {
+    "case_id": "authbypass_low",
+    "vuln_dir": "authbypass",
+    "filename": "low.php",
+    "cwe_id": "284",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 2.0,
+    "fix_len": 292
+  },
+  "authbypass_medium": {
+    "case_id": "authbypass_medium",
+    "vuln_dir": "authbypass",
+    "filename": "medium.php",
+    "cwe_id": "284",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 3.2,
+    "fix_len": 616
+  },
+  "csrf_low": {
+    "case_id": "csrf_low",
+    "vuln_dir": "csrf",
+    "filename": "low.php",
+    "cwe_id": "352",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 8.5,
+    "fix_len": 1428
+  },
+  "csrf_medium": {
+    "case_id": "csrf_medium",
+    "vuln_dir": "csrf",
+    "filename": "medium.php",
+    "cwe_id": "352",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 9.5,
+    "fix_len": 1655
+  },
+  "fi_high": {
+    "case_id": "fi_high",
+    "vuln_dir": "fi",
+    "filename": "high.php",
+    "cwe_id": "22",
+    "sast_findings": 1,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 1.8,
+    "fix_len": 245
+  },
+  "javascript_high": {
+    "case_id": "javascript_high",
+    "vuln_dir": "javascript",
+    "filename": "high.php",
+    "cwe_id": "602",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 3.3,
+    "fix_len": 527
+  },
+  "javascript_low": {
+    "case_id": "javascript_low",
+    "vuln_dir": "javascript",
+    "filename": "low.php",
+    "cwe_id": "602",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 53.8,
+    "fix_len": 4162
+  },
+  "javascript_medium": {
+    "case_id": "javascript_medium",
+    "vuln_dir": "javascript",
+    "filename": "medium.php",
+    "cwe_id": "602",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 3.8,
+    "fix_len": 620
+  },
+  "open_redirect_high": {
+    "case_id": "open_redirect_high",
+    "vuln_dir": "open_redirect",
+    "filename": "high.php",
+    "cwe_id": "601",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 3.3,
+    "fix_len": 543
+  },
+  "open_redirect_low": {
+    "case_id": "open_redirect_low",
+    "vuln_dir": "open_redirect",
+    "filename": "low.php",
+    "cwe_id": "601",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 2.4,
+    "fix_len": 403
+  },
+  "open_redirect_medium": {
+    "case_id": "open_redirect_medium",
+    "vuln_dir": "open_redirect",
+    "filename": "medium.php",
+    "cwe_id": "601",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 2.7,
+    "fix_len": 431
+  },
+  "upload_low": {
+    "case_id": "upload_low",
+    "vuln_dir": "upload",
+    "filename": "low.php",
+    "cwe_id": "434",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 5.5,
+    "fix_len": 822
+  },
+  "upload_medium": {
+    "case_id": "upload_medium",
+    "vuln_dir": "upload",
+    "filename": "medium.php",
+    "cwe_id": "434",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 7.0,
+    "fix_len": 1024
+  },
+  "weak_id_low": {
+    "case_id": "weak_id_low",
+    "vuln_dir": "weak_id",
+    "filename": "low.php",
+    "cwe_id": "330",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 4.4,
+    "fix_len": 666
+  },
+  "weak_id_medium": {
+    "case_id": "weak_id_medium",
+    "vuln_dir": "weak_id",
+    "filename": "medium.php",
+    "cwe_id": "330",
+    "sast_findings": 0,
+    "has_context": false,
+    "status": "generated",
+    "elapsed_s": 3.0,
+    "fix_len": 412
+  },
+  "xss_d_low": {
+    "case_id": "xss_d_low",
+    "vuln_dir": "xss_d",
+    "filename": "low.php",
+    "cwe_id": "79",
+    "sast_findings": 0,
+    "has_context": true,
+    "status": "generated",
+    "elapsed_s": 5.1,
+    "fix_len": 958
+  }
+}

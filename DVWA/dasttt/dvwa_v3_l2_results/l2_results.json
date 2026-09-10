@@ -1,0 +1,140 @@
+{
+  "level": "L2",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "prompt_type": "raw_code_plus_sast_plus_dast_plus_hint",
+  "timestamp": "2026-08-23T15:34:13.606268+00:00",
+  "total_cases": 11,
+  "summary": {
+    "CFR": 10,
+    "PIR": 0,
+    "IFR": 1,
+    "CFR_pct": 90.9,
+    "PIR_pct": 0.0,
+    "IFR_pct": 9.1
+  },
+  "cases": [
+    {
+      "case_id": "csrf_medium",
+      "vuln_dir": "csrf",
+      "filename": "medium.php",
+      "cwe_id": "352",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-352 resolved [pattern:csrf] \u2014 CSRF token validation + generation present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "fi_high",
+      "vuln_dir": "fi",
+      "filename": "high.php",
+      "cwe_id": "22",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-22 resolved [pattern:fi] \u2014 File inclusion protected with in_array() whitelist",
+      "orig_cwes": [
+        "918"
+      ],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "javascript_low",
+      "vuln_dir": "javascript",
+      "filename": "low.php",
+      "cwe_id": "602",
+      "outcome": "IFR",
+      "reason": "Code body deleted (< 30% original size)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_high",
+      "vuln_dir": "open_redirect",
+      "filename": "high.php",
+      "cwe_id": "601",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-601 resolved [pattern:open_redirect] \u2014 Redirect validates input with is_numeric()",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_low",
+      "vuln_dir": "open_redirect",
+      "filename": "low.php",
+      "cwe_id": "601",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-601 resolved [pattern:open_redirect] \u2014 Redirect validates input with is_numeric()",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_medium",
+      "vuln_dir": "open_redirect",
+      "filename": "medium.php",
+      "cwe_id": "601",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-601 resolved [pattern:open_redirect] \u2014 Redirect validates input with is_numeric()",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "upload_low",
+      "vuln_dir": "upload",
+      "filename": "low.php",
+      "cwe_id": "434",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-434 resolved [pattern:upload] \u2014 File type verified with getimagesize()",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "upload_medium",
+      "vuln_dir": "upload",
+      "filename": "medium.php",
+      "cwe_id": "434",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-434 resolved [pattern:upload] \u2014 File type verified with getimagesize()",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "weak_id_low",
+      "vuln_dir": "weak_id",
+      "filename": "low.php",
+      "cwe_id": "330",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-330 resolved [pattern:weak_id] \u2014 Strong unpredictable ID generation found",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "weak_id_medium",
+      "vuln_dir": "weak_id",
+      "filename": "medium.php",
+      "cwe_id": "330",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-330 resolved [pattern:weak_id] \u2014 Strong unpredictable ID generation found",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "xss_d_low",
+      "vuln_dir": "xss_d",
+      "filename": "low.php",
+      "cwe_id": "79",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-79 resolved [pattern:xss_d] \u2014 Server-side language whitelist present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    }
+  ]
+}

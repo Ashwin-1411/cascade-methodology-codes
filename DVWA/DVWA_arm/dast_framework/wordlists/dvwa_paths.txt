@@ -1,0 +1,16 @@
+sqli
+sqli_blind
+xss_r
+xss_s
+xss_d
+exec
+fi
+upload
+csrf
+captcha
+javascript
+open_redirect
+weak_id
+authbypass
+brute
+api

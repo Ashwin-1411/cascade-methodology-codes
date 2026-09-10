@@ -1,0 +1,738 @@
+2026-08-24 21:51:42,420  INFO     === patch_tester.py started at 2026-08-24T21:51:42.420304 ===
+2026-08-24 21:51:42,480  INFO     Using container: dvwa-dvwa-1
+2026-08-24 21:51:42,480  INFO     Waiting for DVWA at http://127.0.0.1:4280 …
+2026-08-24 21:51:42,485  INFO     DVWA is up.
+2026-08-24 21:51:42,485  INFO     Running setup.php …
+2026-08-24 21:51:42,494  INFO     DB setup OK (status 200).
+2026-08-24 21:51:44,494  INFO     Logging in as admin …
+2026-08-24 21:51:44,500  INFO     Logged in. PHPSESSID=89fed3fd5cd4e969736ce4003acf9e77
+2026-08-24 21:51:44,502  INFO     Found 82 patched files across 3 layers.
+2026-08-24 21:51:44,502  INFO     === BASELINE PHASE ===
+2026-08-24 21:51:44,502  INFO     BASELINE  api/high
+2026-08-24 21:51:44,564  INFO     [api/high] GET /vulnerabilities/api/ → HTTP 200  len=5562  err=True
+2026-08-24 21:51:44,564  INFO     BASELINE  api/low
+2026-08-24 21:51:44,591  INFO     [api/low] GET /vulnerabilities/api/ → HTTP 200  len=7189  err=True
+2026-08-24 21:51:44,591  INFO     BASELINE  api/medium
+2026-08-24 21:51:44,618  INFO     [api/medium] GET /vulnerabilities/api/ → HTTP 200  len=6790  err=True
+2026-08-24 21:51:44,618  INFO     BASELINE  authbypass/high
+2026-08-24 21:51:44,621  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=4472  err=True
+2026-08-24 21:51:44,622  INFO     BASELINE  authbypass/low
+2026-08-24 21:51:44,624  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=True
+2026-08-24 21:51:44,624  INFO     BASELINE  authbypass/medium
+2026-08-24 21:51:44,626  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=4478  err=True
+2026-08-24 21:51:44,626  INFO     BASELINE  bac/high
+2026-08-24 21:51:44,637  INFO     [bac/high] GET /vulnerabilities/bac/ → HTTP 200  len=5475  err=True
+2026-08-24 21:51:44,637  INFO     BASELINE  bac/low
+2026-08-24 21:51:44,640  INFO     [bac/low] GET /vulnerabilities/bac/ → HTTP 200  len=5529  err=True
+2026-08-24 21:51:44,640  INFO     BASELINE  bac/medium
+2026-08-24 21:51:44,642  INFO     [bac/medium] GET /vulnerabilities/bac/ → HTTP 200  len=5481  err=True
+2026-08-24 21:51:44,642  INFO     BASELINE  brute/high
+2026-08-24 21:51:44,644  INFO     [brute/high] GET /vulnerabilities/brute/ → HTTP 200  len=379  err=True
+2026-08-24 21:51:44,644  INFO     BASELINE  brute/low
+2026-08-24 21:51:44,646  INFO     [brute/low] GET /vulnerabilities/brute/ → HTTP 200  len=4628  err=True
+2026-08-24 21:51:44,646  INFO     BASELINE  brute/medium
+2026-08-24 21:51:44,648  INFO     [brute/medium] GET /vulnerabilities/brute/ → HTTP 200  len=4556  err=True
+2026-08-24 21:51:44,648  INFO     BASELINE  captcha/high
+2026-08-24 21:51:44,840  INFO     [captcha/high] POST /vulnerabilities/captcha/ → HTTP 200  len=6641  err=True
+2026-08-24 21:51:44,840  INFO     BASELINE  captcha/low
+2026-08-24 21:51:45,001  INFO     [captcha/low] POST /vulnerabilities/captcha/ → HTTP 200  len=6292  err=True
+2026-08-24 21:51:45,002  INFO     BASELINE  captcha/medium
+2026-08-24 21:51:45,169  INFO     [captcha/medium] POST /vulnerabilities/captcha/ → HTTP 200  len=6313  err=True
+2026-08-24 21:51:45,169  INFO     BASELINE  csp/high
+2026-08-24 21:51:45,172  INFO     [csp/high] POST /vulnerabilities/csp/ → HTTP 200  len=4727  err=True
+2026-08-24 21:51:45,172  INFO     BASELINE  csp/low
+2026-08-24 21:51:45,174  INFO     [csp/low] POST /vulnerabilities/csp/ → HTTP 200  len=4837  err=True
+2026-08-24 21:51:45,174  INFO     BASELINE  csp/medium
+2026-08-24 21:51:45,176  INFO     [csp/medium] POST /vulnerabilities/csp/ → HTTP 200  len=4679  err=True
+2026-08-24 21:51:45,176  INFO     BASELINE  csrf/high
+2026-08-24 21:51:45,178  INFO     [csrf/high] GET /vulnerabilities/csrf/ → HTTP 200  len=5977  err=True
+2026-08-24 21:51:45,178  INFO     BASELINE  csrf/low
+2026-08-24 21:51:45,179  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=True
+2026-08-24 21:51:45,179  INFO     BASELINE  csrf/medium
+2026-08-24 21:51:45,181  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=True
+2026-08-24 21:51:45,181  INFO     BASELINE  exec/high
+2026-08-24 21:51:48,263  INFO     [exec/high] POST /vulnerabilities/exec/ → HTTP 200  len=5060  err=True
+2026-08-24 21:51:48,264  INFO     BASELINE  exec/low
+2026-08-24 21:51:51,335  INFO     [exec/low] POST /vulnerabilities/exec/ → HTTP 200  len=5057  err=True
+2026-08-24 21:51:51,336  INFO     BASELINE  exec/medium
+2026-08-24 21:51:54,408  INFO     [exec/medium] POST /vulnerabilities/exec/ → HTTP 200  len=5066  err=True
+2026-08-24 21:51:54,408  INFO     BASELINE  fi/high
+2026-08-24 21:51:54,411  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:51:54,411  INFO     BASELINE  fi/low
+2026-08-24 21:51:54,414  INFO     [fi/low] GET /vulnerabilities/fi/ → HTTP 200  len=5235  err=True
+2026-08-24 21:51:54,414  INFO     BASELINE  fi/medium
+2026-08-24 21:51:54,416  INFO     [fi/medium] GET /vulnerabilities/fi/ → HTTP 200  len=5244  err=True
+2026-08-24 21:51:54,417  INFO     BASELINE  javascript/high
+2026-08-24 21:51:54,419  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=True
+2026-08-24 21:51:54,419  INFO     BASELINE  javascript/low
+2026-08-24 21:51:54,422  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8817  err=True
+2026-08-24 21:51:54,423  INFO     BASELINE  javascript/medium
+2026-08-24 21:51:54,425  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=True
+2026-08-24 21:51:54,425  INFO     BASELINE  open_redirect/high
+2026-08-24 21:51:54,426  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=True
+2026-08-24 21:51:54,426  INFO     BASELINE  open_redirect/low
+2026-08-24 21:51:54,428  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=True
+2026-08-24 21:51:54,428  INFO     BASELINE  open_redirect/medium
+2026-08-24 21:51:54,429  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=True
+2026-08-24 21:51:54,429  INFO     BASELINE  sqli/high
+2026-08-24 21:51:54,431  INFO     [sqli/high] GET /vulnerabilities/sqli/ → HTTP 200  len=4526  err=True
+2026-08-24 21:51:54,431  INFO     BASELINE  sqli/low
+2026-08-24 21:51:54,433  INFO     [sqli/low] GET /vulnerabilities/sqli/ → HTTP 200  len=4651  err=True
+2026-08-24 21:51:54,433  INFO     BASELINE  sqli/medium
+2026-08-24 21:51:54,434  INFO     [sqli/medium] GET /vulnerabilities/sqli/ → HTTP 200  len=4730  err=True
+2026-08-24 21:51:54,434  INFO     BASELINE  sqli_blind/high
+2026-08-24 21:51:54,436  INFO     [sqli_blind/high] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4594  err=True
+2026-08-24 21:51:54,436  INFO     BASELINE  sqli_blind/low
+2026-08-24 21:51:54,438  INFO     [sqli_blind/low] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4703  err=True
+2026-08-24 21:51:54,438  INFO     BASELINE  sqli_blind/medium
+2026-08-24 21:51:54,439  INFO     [sqli_blind/medium] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4799  err=True
+2026-08-24 21:51:54,439  INFO     BASELINE  upload/high
+2026-08-24 21:51:54,441  INFO     [upload/high] GET /vulnerabilities/upload/ → HTTP 200  len=4517  err=True
+2026-08-24 21:51:54,441  INFO     BASELINE  upload/low
+2026-08-24 21:51:54,442  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=True
+2026-08-24 21:51:54,442  INFO     BASELINE  upload/medium
+2026-08-24 21:51:54,444  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=True
+2026-08-24 21:51:54,444  INFO     BASELINE  weak_id/high
+2026-08-24 21:51:54,445  INFO     [weak_id/high] GET /vulnerabilities/weak_id/ → HTTP 200  len=3958  err=True
+2026-08-24 21:51:54,445  INFO     BASELINE  weak_id/low
+2026-08-24 21:51:54,447  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=3955  err=True
+2026-08-24 21:51:54,447  INFO     BASELINE  weak_id/medium
+2026-08-24 21:51:54,448  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=True
+2026-08-24 21:51:54,448  INFO     BASELINE  xss_d/high
+2026-08-24 21:51:54,450  INFO     [xss_d/high] GET /vulnerabilities/xss_d/ → HTTP 200  len=5143  err=True
+2026-08-24 21:51:54,450  INFO     BASELINE  xss_d/low
+2026-08-24 21:51:54,452  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=True
+2026-08-24 21:51:54,452  INFO     BASELINE  xss_d/medium
+2026-08-24 21:51:54,454  INFO     [xss_d/medium] GET /vulnerabilities/xss_d/ → HTTP 200  len=5149  err=True
+2026-08-24 21:51:54,454  INFO     BASELINE  xss_r/high
+2026-08-24 21:51:54,456  INFO     [xss_r/high] GET /vulnerabilities/xss_r/ → HTTP 200  len=4773  err=True
+2026-08-24 21:51:54,456  INFO     BASELINE  xss_r/low
+2026-08-24 21:51:54,458  INFO     [xss_r/low] GET /vulnerabilities/xss_r/ → HTTP 200  len=4770  err=True
+2026-08-24 21:51:54,458  INFO     BASELINE  xss_r/medium
+2026-08-24 21:51:54,460  INFO     [xss_r/medium] GET /vulnerabilities/xss_r/ → HTTP 200  len=4779  err=True
+2026-08-24 21:51:54,460  INFO     BASELINE  xss_s/high
+2026-08-24 21:51:54,463  INFO     [xss_s/high] POST /vulnerabilities/xss_s/ → HTTP 200  len=5579  err=True
+2026-08-24 21:51:54,463  INFO     BASELINE  xss_s/low
+2026-08-24 21:51:54,466  INFO     [xss_s/low] POST /vulnerabilities/xss_s/ → HTTP 200  len=5657  err=True
+2026-08-24 21:51:54,466  INFO     BASELINE  xss_s/medium
+2026-08-24 21:51:54,470  INFO     [xss_s/medium] POST /vulnerabilities/xss_s/ → HTTP 200  len=5747  err=True
+2026-08-24 21:51:54,470  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/baseline.json.
+2026-08-24 21:51:54,471  INFO     === PATCHED PHASE ===
+2026-08-24 21:51:54,471  INFO     PATCHED  [1/82]  l0/api/high
+2026-08-24 21:51:54,537  INFO     [api/high] GET /vulnerabilities/api/ → HTTP 200  len=5629  err=True
+2026-08-24 21:51:54,551  INFO     Restored /var/www/html/vulnerabilities/api/source/high.php
+2026-08-24 21:51:54,551  INFO     PATCHED  [2/82]  l0/api/low
+2026-08-24 21:51:54,600  INFO     [api/low] GET /vulnerabilities/api/ → HTTP 200  len=7189  err=True
+2026-08-24 21:51:54,615  INFO     Restored /var/www/html/vulnerabilities/api/source/low.php
+2026-08-24 21:51:54,615  INFO     PATCHED  [3/82]  l0/api/medium
+2026-08-24 21:51:54,666  INFO     [api/medium] GET /vulnerabilities/api/ → HTTP 200  len=6785  err=True
+2026-08-24 21:51:54,678  INFO     Restored /var/www/html/vulnerabilities/api/source/medium.php
+2026-08-24 21:51:54,678  INFO     PATCHED  [4/82]  l0/authbypass/high
+2026-08-24 21:51:54,709  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=541  err=True
+2026-08-24 21:51:54,721  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/high.php
+2026-08-24 21:51:54,721  INFO     PATCHED  [5/82]  l0/authbypass/low
+2026-08-24 21:51:54,748  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=True
+2026-08-24 21:51:54,762  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/low.php
+2026-08-24 21:51:54,763  INFO     PATCHED  [6/82]  l0/authbypass/medium
+2026-08-24 21:51:54,786  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=547  err=True
+2026-08-24 21:51:54,800  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/medium.php
+2026-08-24 21:51:54,800  INFO     PATCHED  [7/82]  l0/bac/high
+2026-08-24 21:51:54,830  INFO     [bac/high] GET /vulnerabilities/bac/ → HTTP 200  len=5475  err=True
+2026-08-24 21:51:54,845  INFO     Restored /var/www/html/vulnerabilities/bac/source/high.php
+2026-08-24 21:51:54,846  INFO     PATCHED  [8/82]  l0/bac/low
+2026-08-24 21:51:54,875  INFO     [bac/low] GET /vulnerabilities/bac/ → HTTP 200  len=5529  err=True
+2026-08-24 21:51:54,888  INFO     Restored /var/www/html/vulnerabilities/bac/source/low.php
+2026-08-24 21:51:54,888  INFO     PATCHED  [9/82]  l0/bac/medium
+2026-08-24 21:51:54,915  INFO     [bac/medium] GET /vulnerabilities/bac/ → HTTP 200  len=5481  err=True
+2026-08-24 21:51:54,929  INFO     Restored /var/www/html/vulnerabilities/bac/source/medium.php
+2026-08-24 21:51:54,929  INFO     PATCHED  [10/82]  l0/brute/high
+2026-08-24 21:51:54,956  INFO     [brute/high] GET /vulnerabilities/brute/ → HTTP 200  len=379  err=True
+2026-08-24 21:51:54,968  INFO     Restored /var/www/html/vulnerabilities/brute/source/high.php
+2026-08-24 21:51:54,968  INFO     PATCHED  [11/82]  l0/brute/low
+2026-08-24 21:51:54,994  INFO     [brute/low] GET /vulnerabilities/brute/ → HTTP 200  len=4628  err=True
+2026-08-24 21:51:55,008  INFO     Restored /var/www/html/vulnerabilities/brute/source/low.php
+2026-08-24 21:51:55,008  INFO     PATCHED  [12/82]  l0/brute/medium
+2026-08-24 21:51:55,034  INFO     [brute/medium] GET /vulnerabilities/brute/ → HTTP 200  len=5678  err=True
+2026-08-24 21:51:55,048  INFO     Restored /var/www/html/vulnerabilities/brute/source/medium.php
+2026-08-24 21:51:55,048  INFO     PATCHED  [13/82]  l0/captcha/high
+2026-08-24 21:51:55,227  INFO     [captcha/high] POST /vulnerabilities/captcha/ → HTTP 200  len=6641  err=True
+2026-08-24 21:51:55,240  INFO     Restored /var/www/html/vulnerabilities/captcha/source/high.php
+2026-08-24 21:51:55,240  INFO     PATCHED  [14/82]  l0/captcha/low
+2026-08-24 21:51:55,456  INFO     [captcha/low] POST /vulnerabilities/captcha/ → HTTP 200  len=6448  err=True
+2026-08-24 21:51:55,471  INFO     Restored /var/www/html/vulnerabilities/captcha/source/low.php
+2026-08-24 21:51:55,471  INFO     PATCHED  [15/82]  l0/captcha/medium
+2026-08-24 21:51:55,655  INFO     [captcha/medium] POST /vulnerabilities/captcha/ → HTTP 200  len=6472  err=True
+2026-08-24 21:51:55,669  INFO     Restored /var/www/html/vulnerabilities/captcha/source/medium.php
+2026-08-24 21:51:55,669  INFO     PATCHED  [16/82]  l0/csp/high
+2026-08-24 21:51:55,696  INFO     [csp/high] POST /vulnerabilities/csp/ → HTTP 200  len=4724  err=True
+2026-08-24 21:51:55,710  INFO     Restored /var/www/html/vulnerabilities/csp/source/high.php
+2026-08-24 21:51:55,710  INFO     PATCHED  [17/82]  l0/csp/low
+2026-08-24 21:51:55,739  INFO     [csp/low] POST /vulnerabilities/csp/ → HTTP 200  len=4868  err=True
+2026-08-24 21:51:55,751  INFO     Restored /var/www/html/vulnerabilities/csp/source/low.php
+2026-08-24 21:51:55,751  INFO     PATCHED  [18/82]  l0/csp/medium
+2026-08-24 21:51:55,778  INFO     [csp/medium] POST /vulnerabilities/csp/ → HTTP 200  len=4676  err=True
+2026-08-24 21:51:55,789  INFO     Restored /var/www/html/vulnerabilities/csp/source/medium.php
+2026-08-24 21:51:55,789  INFO     PATCHED  [19/82]  l0/csrf/high
+2026-08-24 21:51:55,819  INFO     [csrf/high] GET /vulnerabilities/csrf/ → HTTP 200  len=5977  err=True
+2026-08-24 21:51:55,833  INFO     Restored /var/www/html/vulnerabilities/csrf/source/high.php
+2026-08-24 21:51:55,833  INFO     PATCHED  [20/82]  l0/csrf/low
+2026-08-24 21:51:55,858  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=True
+2026-08-24 21:51:55,872  INFO     Restored /var/www/html/vulnerabilities/csrf/source/low.php
+2026-08-24 21:51:55,872  INFO     PATCHED  [21/82]  l0/csrf/medium
+2026-08-24 21:51:55,900  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=True
+2026-08-24 21:51:55,912  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:51:55,912  INFO     PATCHED  [22/82]  l0/exec/high
+2026-08-24 21:51:59,016  INFO     [exec/high] POST /vulnerabilities/exec/ → HTTP 200  len=5060  err=True
+2026-08-24 21:51:59,032  INFO     Restored /var/www/html/vulnerabilities/exec/source/high.php
+2026-08-24 21:51:59,032  INFO     PATCHED  [23/82]  l0/exec/low
+2026-08-24 21:52:02,151  INFO     [exec/low] POST /vulnerabilities/exec/ → HTTP 200  len=5057  err=True
+2026-08-24 21:52:02,165  INFO     Restored /var/www/html/vulnerabilities/exec/source/low.php
+2026-08-24 21:52:02,166  INFO     PATCHED  [24/82]  l0/exec/medium
+2026-08-24 21:52:05,289  INFO     [exec/medium] POST /vulnerabilities/exec/ → HTTP 200  len=5066  err=True
+2026-08-24 21:52:05,304  INFO     Restored /var/www/html/vulnerabilities/exec/source/medium.php
+2026-08-24 21:52:05,305  INFO     PATCHED  [25/82]  l0/fi/high
+2026-08-24 21:52:05,334  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:52:05,346  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:52:05,346  INFO     PATCHED  [26/82]  l0/fi/low
+2026-08-24 21:52:05,376  INFO     [fi/low] GET /vulnerabilities/fi/ → HTTP 200  len=5235  err=True
+2026-08-24 21:52:05,388  INFO     Restored /var/www/html/vulnerabilities/fi/source/low.php
+2026-08-24 21:52:05,388  INFO     PATCHED  [27/82]  l0/fi/medium
+2026-08-24 21:52:05,417  INFO     [fi/medium] GET /vulnerabilities/fi/ → HTTP 200  len=5244  err=True
+2026-08-24 21:52:05,429  INFO     Restored /var/www/html/vulnerabilities/fi/source/medium.php
+2026-08-24 21:52:05,429  INFO     PATCHED  [28/82]  l0/javascript/high
+2026-08-24 21:52:05,454  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=True
+2026-08-24 21:52:05,469  INFO     Restored /var/www/html/vulnerabilities/javascript/source/high.php
+2026-08-24 21:52:05,469  INFO     PATCHED  [29/82]  l0/javascript/low
+2026-08-24 21:52:05,496  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=True
+2026-08-24 21:52:05,510  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:52:05,510  INFO     PATCHED  [30/82]  l0/javascript/medium
+2026-08-24 21:52:05,539  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=True
+2026-08-24 21:52:05,551  INFO     Restored /var/www/html/vulnerabilities/javascript/source/medium.php
+2026-08-24 21:52:05,551  INFO     PATCHED  [31/82]  l0/open_redirect/high
+2026-08-24 21:52:05,580  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=True
+2026-08-24 21:52:05,594  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:52:05,594  INFO     PATCHED  [32/82]  l0/open_redirect/low
+2026-08-24 21:52:05,622  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=True
+2026-08-24 21:52:05,635  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:52:05,635  INFO     PATCHED  [33/82]  l0/open_redirect/medium
+2026-08-24 21:52:05,661  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=True
+2026-08-24 21:52:05,673  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:52:05,673  INFO     PATCHED  [34/82]  l0/sqli/high
+2026-08-24 21:52:05,700  INFO     [sqli/high] GET /vulnerabilities/sqli/ → HTTP 200  len=4526  err=True
+2026-08-24 21:52:05,712  INFO     Restored /var/www/html/vulnerabilities/sqli/source/high.php
+2026-08-24 21:52:05,712  INFO     PATCHED  [35/82]  l0/sqli/low
+2026-08-24 21:52:05,740  INFO     [sqli/low] GET /vulnerabilities/sqli/ → HTTP 200  len=4651  err=True
+2026-08-24 21:52:05,751  INFO     Restored /var/www/html/vulnerabilities/sqli/source/low.php
+2026-08-24 21:52:05,751  INFO     PATCHED  [36/82]  l0/sqli/medium
+2026-08-24 21:52:05,779  INFO     [sqli/medium] GET /vulnerabilities/sqli/ → HTTP 200  len=4730  err=True
+2026-08-24 21:52:05,792  INFO     Restored /var/www/html/vulnerabilities/sqli/source/medium.php
+2026-08-24 21:52:05,792  INFO     PATCHED  [37/82]  l0/sqli_blind/high
+2026-08-24 21:52:05,819  INFO     [sqli_blind/high] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4594  err=True
+2026-08-24 21:52:05,834  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/high.php
+2026-08-24 21:52:05,834  INFO     PATCHED  [38/82]  l0/sqli_blind/low
+2026-08-24 21:52:05,861  INFO     [sqli_blind/low] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4703  err=True
+2026-08-24 21:52:05,873  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/low.php
+2026-08-24 21:52:05,873  INFO     PATCHED  [39/82]  l0/sqli_blind/medium
+2026-08-24 21:52:05,903  INFO     [sqli_blind/medium] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4799  err=True
+2026-08-24 21:52:05,917  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/medium.php
+2026-08-24 21:52:05,918  INFO     PATCHED  [40/82]  l0/upload/high
+2026-08-24 21:52:05,946  INFO     [upload/high] GET /vulnerabilities/upload/ → HTTP 200  len=4517  err=True
+2026-08-24 21:52:05,960  INFO     Restored /var/www/html/vulnerabilities/upload/source/high.php
+2026-08-24 21:52:05,961  INFO     PATCHED  [41/82]  l0/upload/low
+2026-08-24 21:52:05,989  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=True
+2026-08-24 21:52:06,003  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:52:06,003  INFO     PATCHED  [42/82]  l0/upload/medium
+2026-08-24 21:52:06,033  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=True
+2026-08-24 21:52:06,047  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:52:06,047  INFO     PATCHED  [43/82]  l0/weak_id/high
+2026-08-24 21:52:06,074  INFO     [weak_id/high] GET /vulnerabilities/weak_id/ → HTTP 200  len=4935  err=True
+2026-08-24 21:52:06,088  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/high.php
+2026-08-24 21:52:06,088  INFO     PATCHED  [44/82]  l0/weak_id/low
+2026-08-24 21:52:06,115  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:52:06,129  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:52:06,129  INFO     PATCHED  [45/82]  l0/weak_id/medium
+2026-08-24 21:52:06,157  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=True
+2026-08-24 21:52:06,169  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:52:06,169  INFO     PATCHED  [46/82]  l0/xss_d/high
+2026-08-24 21:52:06,197  INFO     [xss_d/high] GET /vulnerabilities/xss_d/ → HTTP 200  len=5143  err=True
+2026-08-24 21:52:06,211  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/high.php
+2026-08-24 21:52:06,211  INFO     PATCHED  [47/82]  l0/xss_d/low
+2026-08-24 21:52:06,237  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=True
+2026-08-24 21:52:06,248  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:52:06,249  INFO     PATCHED  [48/82]  l0/xss_d/medium
+2026-08-24 21:52:06,276  INFO     [xss_d/medium] GET /vulnerabilities/xss_d/ → HTTP 200  len=5149  err=True
+2026-08-24 21:52:06,290  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/medium.php
+2026-08-24 21:52:06,290  INFO     PATCHED  [49/82]  l0/xss_r/high
+2026-08-24 21:52:06,319  INFO     [xss_r/high] GET /vulnerabilities/xss_r/ → HTTP 200  len=4773  err=True
+2026-08-24 21:52:06,334  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/high.php
+2026-08-24 21:52:06,334  INFO     PATCHED  [50/82]  l0/xss_r/low
+2026-08-24 21:52:06,363  INFO     [xss_r/low] GET /vulnerabilities/xss_r/ → HTTP 200  len=4770  err=True
+2026-08-24 21:52:06,378  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/low.php
+2026-08-24 21:52:06,378  INFO     PATCHED  [51/82]  l0/xss_r/medium
+2026-08-24 21:52:06,407  INFO     [xss_r/medium] GET /vulnerabilities/xss_r/ → HTTP 200  len=4779  err=True
+2026-08-24 21:52:06,421  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/medium.php
+2026-08-24 21:52:06,421  INFO     PATCHED  [52/82]  l0/xss_s/high
+2026-08-24 21:52:06,451  INFO     [xss_s/high] POST /vulnerabilities/xss_s/ → HTTP 200  len=5822  err=True
+2026-08-24 21:52:06,462  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/high.php
+2026-08-24 21:52:06,462  INFO     PATCHED  [53/82]  l0/xss_s/low
+2026-08-24 21:52:06,490  INFO     [xss_s/low] POST /vulnerabilities/xss_s/ → HTTP 200  len=5900  err=True
+2026-08-24 21:52:06,505  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/low.php
+2026-08-24 21:52:06,506  INFO     PATCHED  [54/82]  l0/xss_s/medium
+2026-08-24 21:52:06,536  INFO     [xss_s/medium] POST /vulnerabilities/xss_s/ → HTTP 200  len=5990  err=True
+2026-08-24 21:52:06,551  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/medium.php
+2026-08-24 21:52:06,551  INFO     PATCHED  [55/82]  l1/authbypass/high
+2026-08-24 21:52:06,578  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=4472  err=True
+2026-08-24 21:52:06,592  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/high.php
+2026-08-24 21:52:06,592  INFO     PATCHED  [56/82]  l1/authbypass/low
+2026-08-24 21:52:06,619  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=True
+2026-08-24 21:52:06,631  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/low.php
+2026-08-24 21:52:06,631  INFO     PATCHED  [57/82]  l1/authbypass/medium
+2026-08-24 21:52:06,657  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=4478  err=True
+2026-08-24 21:52:06,671  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/medium.php
+2026-08-24 21:52:06,671  INFO     PATCHED  [58/82]  l1/csrf/low
+2026-08-24 21:52:06,698  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=True
+2026-08-24 21:52:06,711  INFO     Restored /var/www/html/vulnerabilities/csrf/source/low.php
+2026-08-24 21:52:06,711  INFO     PATCHED  [59/82]  l1/csrf/medium
+2026-08-24 21:52:06,739  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=True
+2026-08-24 21:52:06,750  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:52:06,750  INFO     PATCHED  [60/82]  l1/fi/high
+2026-08-24 21:52:06,775  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:52:06,788  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:52:06,788  INFO     PATCHED  [61/82]  l1/javascript/high
+2026-08-24 21:52:06,816  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=True
+2026-08-24 21:52:06,828  INFO     Restored /var/www/html/vulnerabilities/javascript/source/high.php
+2026-08-24 21:52:06,828  INFO     PATCHED  [62/82]  l1/javascript/low
+2026-08-24 21:52:06,857  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=True
+2026-08-24 21:52:06,869  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:52:06,869  INFO     PATCHED  [63/82]  l1/javascript/medium
+2026-08-24 21:52:06,895  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=True
+2026-08-24 21:52:06,909  INFO     Restored /var/www/html/vulnerabilities/javascript/source/medium.php
+2026-08-24 21:52:06,909  INFO     PATCHED  [64/82]  l1/open_redirect/high
+2026-08-24 21:52:06,936  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=True
+2026-08-24 21:52:06,950  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:52:06,950  INFO     PATCHED  [65/82]  l1/open_redirect/low
+2026-08-24 21:52:06,976  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=True
+2026-08-24 21:52:06,990  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:52:06,991  INFO     PATCHED  [66/82]  l1/open_redirect/medium
+2026-08-24 21:52:07,019  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=True
+2026-08-24 21:52:07,030  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:52:07,030  INFO     PATCHED  [67/82]  l1/upload/low
+2026-08-24 21:52:07,060  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=True
+2026-08-24 21:52:07,073  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:52:07,073  INFO     PATCHED  [68/82]  l1/upload/medium
+2026-08-24 21:52:07,096  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=True
+2026-08-24 21:52:07,109  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:52:07,109  INFO     PATCHED  [69/82]  l1/weak_id/low
+2026-08-24 21:52:07,138  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:52:07,150  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:52:07,150  INFO     PATCHED  [70/82]  l1/weak_id/medium
+2026-08-24 21:52:07,179  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=True
+2026-08-24 21:52:07,191  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:52:07,191  INFO     PATCHED  [71/82]  l1/xss_d/low
+2026-08-24 21:52:07,217  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=True
+2026-08-24 21:52:07,230  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:52:07,230  INFO     PATCHED  [72/82]  l2/csrf/medium
+2026-08-24 21:52:07,258  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=True
+2026-08-24 21:52:07,270  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:52:07,270  INFO     PATCHED  [73/82]  l2/fi/high
+2026-08-24 21:52:07,300  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:52:07,313  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:52:07,313  INFO     PATCHED  [74/82]  l2/javascript/low
+2026-08-24 21:52:07,341  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=True
+2026-08-24 21:52:07,355  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:52:07,355  INFO     PATCHED  [75/82]  l2/open_redirect/high
+2026-08-24 21:52:07,384  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=True
+2026-08-24 21:52:07,398  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:52:07,398  INFO     PATCHED  [76/82]  l2/open_redirect/low
+2026-08-24 21:52:07,427  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=True
+2026-08-24 21:52:07,440  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:52:07,440  INFO     PATCHED  [77/82]  l2/open_redirect/medium
+2026-08-24 21:52:07,468  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=True
+2026-08-24 21:52:07,480  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:52:07,481  INFO     PATCHED  [78/82]  l2/upload/low
+2026-08-24 21:52:07,507  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=True
+2026-08-24 21:52:07,519  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:52:07,519  INFO     PATCHED  [79/82]  l2/upload/medium
+2026-08-24 21:52:07,544  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=True
+2026-08-24 21:52:07,557  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:52:07,557  INFO     PATCHED  [80/82]  l2/weak_id/low
+2026-08-24 21:52:07,586  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:52:07,599  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:52:07,599  INFO     PATCHED  [81/82]  l2/weak_id/medium
+2026-08-24 21:52:07,624  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=True
+2026-08-24 21:52:07,637  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:52:07,637  INFO     PATCHED  [82/82]  l2/xss_d/low
+2026-08-24 21:52:07,663  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=True
+2026-08-24 21:52:07,674  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:52:07,675  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/patched.json.
+2026-08-24 21:52:07,675  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/results.csv (82 rows).
+2026-08-24 21:52:07,675  INFO     === Done. Full request log: /home/user/cve-llm/cve_fixed_v3/patch_tester.log ===
+2026-08-24 21:53:55,450  INFO     === patch_tester.py started at 2026-08-24T21:53:55.450264 ===
+2026-08-24 21:53:55,509  INFO     Using container: dvwa-dvwa-1
+2026-08-24 21:53:55,509  INFO     Waiting for DVWA at http://127.0.0.1:4280 …
+2026-08-24 21:53:55,513  INFO     DVWA is up.
+2026-08-24 21:53:55,513  INFO     Running setup.php …
+2026-08-24 21:53:55,516  INFO     DB setup OK (status 200).
+2026-08-24 21:53:57,516  INFO     Logging in as admin …
+2026-08-24 21:53:57,524  INFO     Logged in. PHPSESSID=71046126800bf25a7d33fe6889b27238
+2026-08-24 21:53:57,527  INFO     Found 82 patched files across 3 layers.
+2026-08-24 21:53:57,527  INFO     === BASELINE PHASE ===
+2026-08-24 21:53:57,527  INFO     BASELINE  api/high
+2026-08-24 21:53:57,559  INFO     [api/high] GET /vulnerabilities/api/ → HTTP 200  len=5562  err=False
+2026-08-24 21:53:57,559  INFO     BASELINE  api/low
+2026-08-24 21:53:57,590  INFO     [api/low] GET /vulnerabilities/api/ → HTTP 200  len=7189  err=False
+2026-08-24 21:53:57,590  INFO     BASELINE  api/medium
+2026-08-24 21:53:57,615  INFO     [api/medium] GET /vulnerabilities/api/ → HTTP 200  len=6790  err=False
+2026-08-24 21:53:57,615  INFO     BASELINE  authbypass/high
+2026-08-24 21:53:57,617  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=4472  err=False
+2026-08-24 21:53:57,617  INFO     BASELINE  authbypass/low
+2026-08-24 21:53:57,618  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=False
+2026-08-24 21:53:57,618  INFO     BASELINE  authbypass/medium
+2026-08-24 21:53:57,620  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=4478  err=False
+2026-08-24 21:53:57,620  INFO     BASELINE  bac/high
+2026-08-24 21:53:57,622  INFO     [bac/high] GET /vulnerabilities/bac/ → HTTP 200  len=5475  err=False
+2026-08-24 21:53:57,622  INFO     BASELINE  bac/low
+2026-08-24 21:53:57,624  INFO     [bac/low] GET /vulnerabilities/bac/ → HTTP 200  len=5529  err=False
+2026-08-24 21:53:57,624  INFO     BASELINE  bac/medium
+2026-08-24 21:53:57,626  INFO     [bac/medium] GET /vulnerabilities/bac/ → HTTP 200  len=5481  err=False
+2026-08-24 21:53:57,626  INFO     BASELINE  brute/high
+2026-08-24 21:53:57,627  INFO     [brute/high] GET /vulnerabilities/brute/ → HTTP 200  len=379  err=True
+2026-08-24 21:53:57,627  INFO     BASELINE  brute/low
+2026-08-24 21:53:57,629  INFO     [brute/low] GET /vulnerabilities/brute/ → HTTP 200  len=4628  err=False
+2026-08-24 21:53:57,629  INFO     BASELINE  brute/medium
+2026-08-24 21:53:57,630  INFO     [brute/medium] GET /vulnerabilities/brute/ → HTTP 200  len=4556  err=False
+2026-08-24 21:53:57,630  INFO     BASELINE  captcha/high
+2026-08-24 21:53:57,794  INFO     [captcha/high] POST /vulnerabilities/captcha/ → HTTP 200  len=6641  err=True
+2026-08-24 21:53:57,794  INFO     BASELINE  captcha/low
+2026-08-24 21:53:57,964  INFO     [captcha/low] POST /vulnerabilities/captcha/ → HTTP 200  len=6292  err=True
+2026-08-24 21:53:57,964  INFO     BASELINE  captcha/medium
+2026-08-24 21:53:58,120  INFO     [captcha/medium] POST /vulnerabilities/captcha/ → HTTP 200  len=6313  err=True
+2026-08-24 21:53:58,120  INFO     BASELINE  csp/high
+2026-08-24 21:53:58,123  INFO     [csp/high] POST /vulnerabilities/csp/ → HTTP 200  len=4727  err=False
+2026-08-24 21:53:58,123  INFO     BASELINE  csp/low
+2026-08-24 21:53:58,126  INFO     [csp/low] POST /vulnerabilities/csp/ → HTTP 200  len=4837  err=False
+2026-08-24 21:53:58,126  INFO     BASELINE  csp/medium
+2026-08-24 21:53:58,128  INFO     [csp/medium] POST /vulnerabilities/csp/ → HTTP 200  len=4679  err=False
+2026-08-24 21:53:58,128  INFO     BASELINE  csrf/high
+2026-08-24 21:53:58,130  INFO     [csrf/high] GET /vulnerabilities/csrf/ → HTTP 200  len=5977  err=False
+2026-08-24 21:53:58,130  INFO     BASELINE  csrf/low
+2026-08-24 21:53:58,132  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=False
+2026-08-24 21:53:58,133  INFO     BASELINE  csrf/medium
+2026-08-24 21:53:58,135  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=False
+2026-08-24 21:53:58,135  INFO     BASELINE  exec/high
+2026-08-24 21:54:01,191  INFO     [exec/high] POST /vulnerabilities/exec/ → HTTP 200  len=5060  err=False
+2026-08-24 21:54:01,191  INFO     BASELINE  exec/low
+2026-08-24 21:54:04,263  INFO     [exec/low] POST /vulnerabilities/exec/ → HTTP 200  len=5057  err=False
+2026-08-24 21:54:04,263  INFO     BASELINE  exec/medium
+2026-08-24 21:54:07,335  INFO     [exec/medium] POST /vulnerabilities/exec/ → HTTP 200  len=5066  err=False
+2026-08-24 21:54:07,335  INFO     BASELINE  fi/high
+2026-08-24 21:54:07,338  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:54:07,338  INFO     BASELINE  fi/low
+2026-08-24 21:54:07,341  INFO     [fi/low] GET /vulnerabilities/fi/ → HTTP 200  len=5235  err=False
+2026-08-24 21:54:07,341  INFO     BASELINE  fi/medium
+2026-08-24 21:54:07,343  INFO     [fi/medium] GET /vulnerabilities/fi/ → HTTP 200  len=5244  err=False
+2026-08-24 21:54:07,343  INFO     BASELINE  javascript/high
+2026-08-24 21:54:07,346  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=False
+2026-08-24 21:54:07,346  INFO     BASELINE  javascript/low
+2026-08-24 21:54:07,349  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8817  err=False
+2026-08-24 21:54:07,349  INFO     BASELINE  javascript/medium
+2026-08-24 21:54:07,351  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=False
+2026-08-24 21:54:07,351  INFO     BASELINE  open_redirect/high
+2026-08-24 21:54:07,354  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=False
+2026-08-24 21:54:07,354  INFO     BASELINE  open_redirect/low
+2026-08-24 21:54:07,356  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=False
+2026-08-24 21:54:07,356  INFO     BASELINE  open_redirect/medium
+2026-08-24 21:54:07,358  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=False
+2026-08-24 21:54:07,358  INFO     BASELINE  sqli/high
+2026-08-24 21:54:07,361  INFO     [sqli/high] GET /vulnerabilities/sqli/ → HTTP 200  len=4526  err=False
+2026-08-24 21:54:07,361  INFO     BASELINE  sqli/low
+2026-08-24 21:54:07,364  INFO     [sqli/low] GET /vulnerabilities/sqli/ → HTTP 200  len=4651  err=False
+2026-08-24 21:54:07,364  INFO     BASELINE  sqli/medium
+2026-08-24 21:54:07,367  INFO     [sqli/medium] GET /vulnerabilities/sqli/ → HTTP 200  len=4730  err=False
+2026-08-24 21:54:07,367  INFO     BASELINE  sqli_blind/high
+2026-08-24 21:54:07,370  INFO     [sqli_blind/high] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4594  err=False
+2026-08-24 21:54:07,370  INFO     BASELINE  sqli_blind/low
+2026-08-24 21:54:07,372  INFO     [sqli_blind/low] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4703  err=False
+2026-08-24 21:54:07,372  INFO     BASELINE  sqli_blind/medium
+2026-08-24 21:54:07,374  INFO     [sqli_blind/medium] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4799  err=False
+2026-08-24 21:54:07,374  INFO     BASELINE  upload/high
+2026-08-24 21:54:07,376  INFO     [upload/high] GET /vulnerabilities/upload/ → HTTP 200  len=4517  err=False
+2026-08-24 21:54:07,377  INFO     BASELINE  upload/low
+2026-08-24 21:54:07,379  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=False
+2026-08-24 21:54:07,379  INFO     BASELINE  upload/medium
+2026-08-24 21:54:07,381  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=False
+2026-08-24 21:54:07,381  INFO     BASELINE  weak_id/high
+2026-08-24 21:54:07,383  INFO     [weak_id/high] GET /vulnerabilities/weak_id/ → HTTP 200  len=3958  err=False
+2026-08-24 21:54:07,383  INFO     BASELINE  weak_id/low
+2026-08-24 21:54:07,385  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=3955  err=False
+2026-08-24 21:54:07,385  INFO     BASELINE  weak_id/medium
+2026-08-24 21:54:07,387  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=False
+2026-08-24 21:54:07,387  INFO     BASELINE  xss_d/high
+2026-08-24 21:54:07,389  INFO     [xss_d/high] GET /vulnerabilities/xss_d/ → HTTP 200  len=5143  err=False
+2026-08-24 21:54:07,389  INFO     BASELINE  xss_d/low
+2026-08-24 21:54:07,391  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=False
+2026-08-24 21:54:07,391  INFO     BASELINE  xss_d/medium
+2026-08-24 21:54:07,393  INFO     [xss_d/medium] GET /vulnerabilities/xss_d/ → HTTP 200  len=5149  err=False
+2026-08-24 21:54:07,393  INFO     BASELINE  xss_r/high
+2026-08-24 21:54:07,396  INFO     [xss_r/high] GET /vulnerabilities/xss_r/ → HTTP 200  len=4773  err=False
+2026-08-24 21:54:07,396  INFO     BASELINE  xss_r/low
+2026-08-24 21:54:07,398  INFO     [xss_r/low] GET /vulnerabilities/xss_r/ → HTTP 200  len=4770  err=False
+2026-08-24 21:54:07,398  INFO     BASELINE  xss_r/medium
+2026-08-24 21:54:07,400  INFO     [xss_r/medium] GET /vulnerabilities/xss_r/ → HTTP 200  len=4779  err=False
+2026-08-24 21:54:07,400  INFO     BASELINE  xss_s/high
+2026-08-24 21:54:07,403  INFO     [xss_s/high] POST /vulnerabilities/xss_s/ → HTTP 200  len=6065  err=False
+2026-08-24 21:54:07,404  INFO     BASELINE  xss_s/low
+2026-08-24 21:54:07,406  INFO     [xss_s/low] POST /vulnerabilities/xss_s/ → HTTP 200  len=6143  err=False
+2026-08-24 21:54:07,406  INFO     BASELINE  xss_s/medium
+2026-08-24 21:54:07,408  INFO     [xss_s/medium] POST /vulnerabilities/xss_s/ → HTTP 200  len=6233  err=False
+2026-08-24 21:54:07,408  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/baseline.json.
+2026-08-24 21:54:07,408  INFO     === PATCHED PHASE ===
+2026-08-24 21:54:07,408  INFO     PATCHED  [1/82]  l0/api/high
+2026-08-24 21:54:07,465  INFO     [api/high] GET /vulnerabilities/api/ → HTTP 200  len=5629  err=False
+2026-08-24 21:54:07,478  INFO     Restored /var/www/html/vulnerabilities/api/source/high.php
+2026-08-24 21:54:07,478  INFO     PATCHED  [2/82]  l0/api/low
+2026-08-24 21:54:07,535  INFO     [api/low] GET /vulnerabilities/api/ → HTTP 200  len=7189  err=False
+2026-08-24 21:54:07,550  INFO     Restored /var/www/html/vulnerabilities/api/source/low.php
+2026-08-24 21:54:07,550  INFO     PATCHED  [3/82]  l0/api/medium
+2026-08-24 21:54:07,600  INFO     [api/medium] GET /vulnerabilities/api/ → HTTP 200  len=6785  err=False
+2026-08-24 21:54:07,615  INFO     Restored /var/www/html/vulnerabilities/api/source/medium.php
+2026-08-24 21:54:07,615  INFO     PATCHED  [4/82]  l0/authbypass/high
+2026-08-24 21:54:07,641  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=541  err=True
+2026-08-24 21:54:07,654  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/high.php
+2026-08-24 21:54:07,654  INFO     PATCHED  [5/82]  l0/authbypass/low
+2026-08-24 21:54:07,680  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=False
+2026-08-24 21:54:07,690  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/low.php
+2026-08-24 21:54:07,690  INFO     PATCHED  [6/82]  l0/authbypass/medium
+2026-08-24 21:54:07,715  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=547  err=True
+2026-08-24 21:54:07,728  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/medium.php
+2026-08-24 21:54:07,728  INFO     PATCHED  [7/82]  l0/bac/high
+2026-08-24 21:54:07,754  INFO     [bac/high] GET /vulnerabilities/bac/ → HTTP 200  len=5475  err=False
+2026-08-24 21:54:07,765  INFO     Restored /var/www/html/vulnerabilities/bac/source/high.php
+2026-08-24 21:54:07,765  INFO     PATCHED  [8/82]  l0/bac/low
+2026-08-24 21:54:07,792  INFO     [bac/low] GET /vulnerabilities/bac/ → HTTP 200  len=5529  err=False
+2026-08-24 21:54:07,806  INFO     Restored /var/www/html/vulnerabilities/bac/source/low.php
+2026-08-24 21:54:07,806  INFO     PATCHED  [9/82]  l0/bac/medium
+2026-08-24 21:54:07,833  INFO     [bac/medium] GET /vulnerabilities/bac/ → HTTP 200  len=5481  err=False
+2026-08-24 21:54:07,846  INFO     Restored /var/www/html/vulnerabilities/bac/source/medium.php
+2026-08-24 21:54:07,846  INFO     PATCHED  [10/82]  l0/brute/high
+2026-08-24 21:54:07,870  INFO     [brute/high] GET /vulnerabilities/brute/ → HTTP 200  len=379  err=True
+2026-08-24 21:54:07,883  INFO     Restored /var/www/html/vulnerabilities/brute/source/high.php
+2026-08-24 21:54:07,883  INFO     PATCHED  [11/82]  l0/brute/low
+2026-08-24 21:54:07,910  INFO     [brute/low] GET /vulnerabilities/brute/ → HTTP 200  len=4628  err=False
+2026-08-24 21:54:07,920  INFO     Restored /var/www/html/vulnerabilities/brute/source/low.php
+2026-08-24 21:54:07,921  INFO     PATCHED  [12/82]  l0/brute/medium
+2026-08-24 21:54:07,951  INFO     [brute/medium] GET /vulnerabilities/brute/ → HTTP 200  len=5678  err=True
+2026-08-24 21:54:07,967  INFO     Restored /var/www/html/vulnerabilities/brute/source/medium.php
+2026-08-24 21:54:07,967  INFO     PATCHED  [13/82]  l0/captcha/high
+2026-08-24 21:54:08,146  INFO     [captcha/high] POST /vulnerabilities/captcha/ → HTTP 200  len=6641  err=True
+2026-08-24 21:54:08,162  INFO     Restored /var/www/html/vulnerabilities/captcha/source/high.php
+2026-08-24 21:54:08,162  INFO     PATCHED  [14/82]  l0/captcha/low
+2026-08-24 21:54:08,332  INFO     [captcha/low] POST /vulnerabilities/captcha/ → HTTP 200  len=6448  err=True
+2026-08-24 21:54:08,348  INFO     Restored /var/www/html/vulnerabilities/captcha/source/low.php
+2026-08-24 21:54:08,348  INFO     PATCHED  [15/82]  l0/captcha/medium
+2026-08-24 21:54:08,559  INFO     [captcha/medium] POST /vulnerabilities/captcha/ → HTTP 200  len=6472  err=True
+2026-08-24 21:54:08,573  INFO     Restored /var/www/html/vulnerabilities/captcha/source/medium.php
+2026-08-24 21:54:08,573  INFO     PATCHED  [16/82]  l0/csp/high
+2026-08-24 21:54:08,602  INFO     [csp/high] POST /vulnerabilities/csp/ → HTTP 200  len=4724  err=False
+2026-08-24 21:54:08,616  INFO     Restored /var/www/html/vulnerabilities/csp/source/high.php
+2026-08-24 21:54:08,616  INFO     PATCHED  [17/82]  l0/csp/low
+2026-08-24 21:54:08,644  INFO     [csp/low] POST /vulnerabilities/csp/ → HTTP 200  len=4868  err=False
+2026-08-24 21:54:08,656  INFO     Restored /var/www/html/vulnerabilities/csp/source/low.php
+2026-08-24 21:54:08,656  INFO     PATCHED  [18/82]  l0/csp/medium
+2026-08-24 21:54:08,685  INFO     [csp/medium] POST /vulnerabilities/csp/ → HTTP 200  len=4676  err=False
+2026-08-24 21:54:08,697  INFO     Restored /var/www/html/vulnerabilities/csp/source/medium.php
+2026-08-24 21:54:08,697  INFO     PATCHED  [19/82]  l0/csrf/high
+2026-08-24 21:54:08,724  INFO     [csrf/high] GET /vulnerabilities/csrf/ → HTTP 200  len=5977  err=False
+2026-08-24 21:54:08,737  INFO     Restored /var/www/html/vulnerabilities/csrf/source/high.php
+2026-08-24 21:54:08,737  INFO     PATCHED  [20/82]  l0/csrf/low
+2026-08-24 21:54:08,763  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=False
+2026-08-24 21:54:08,776  INFO     Restored /var/www/html/vulnerabilities/csrf/source/low.php
+2026-08-24 21:54:08,777  INFO     PATCHED  [21/82]  l0/csrf/medium
+2026-08-24 21:54:08,803  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=False
+2026-08-24 21:54:08,817  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:54:08,818  INFO     PATCHED  [22/82]  l0/exec/high
+2026-08-24 21:54:11,943  INFO     [exec/high] POST /vulnerabilities/exec/ → HTTP 200  len=5060  err=False
+2026-08-24 21:54:11,960  INFO     Restored /var/www/html/vulnerabilities/exec/source/high.php
+2026-08-24 21:54:11,960  INFO     PATCHED  [23/82]  l0/exec/low
+2026-08-24 21:54:15,079  INFO     [exec/low] POST /vulnerabilities/exec/ → HTTP 200  len=5057  err=False
+2026-08-24 21:54:15,093  INFO     Restored /var/www/html/vulnerabilities/exec/source/low.php
+2026-08-24 21:54:15,094  INFO     PATCHED  [24/82]  l0/exec/medium
+2026-08-24 21:54:18,215  INFO     [exec/medium] POST /vulnerabilities/exec/ → HTTP 200  len=5066  err=False
+2026-08-24 21:54:18,232  INFO     Restored /var/www/html/vulnerabilities/exec/source/medium.php
+2026-08-24 21:54:18,232  INFO     PATCHED  [25/82]  l0/fi/high
+2026-08-24 21:54:18,264  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:54:18,278  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:54:18,278  INFO     PATCHED  [26/82]  l0/fi/low
+2026-08-24 21:54:18,305  INFO     [fi/low] GET /vulnerabilities/fi/ → HTTP 200  len=5235  err=False
+2026-08-24 21:54:18,318  INFO     Restored /var/www/html/vulnerabilities/fi/source/low.php
+2026-08-24 21:54:18,318  INFO     PATCHED  [27/82]  l0/fi/medium
+2026-08-24 21:54:18,346  INFO     [fi/medium] GET /vulnerabilities/fi/ → HTTP 200  len=5244  err=False
+2026-08-24 21:54:18,358  INFO     Restored /var/www/html/vulnerabilities/fi/source/medium.php
+2026-08-24 21:54:18,358  INFO     PATCHED  [28/82]  l0/javascript/high
+2026-08-24 21:54:18,387  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=False
+2026-08-24 21:54:18,399  INFO     Restored /var/www/html/vulnerabilities/javascript/source/high.php
+2026-08-24 21:54:18,399  INFO     PATCHED  [29/82]  l0/javascript/low
+2026-08-24 21:54:18,427  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=False
+2026-08-24 21:54:18,440  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:54:18,440  INFO     PATCHED  [30/82]  l0/javascript/medium
+2026-08-24 21:54:18,467  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=False
+2026-08-24 21:54:18,480  INFO     Restored /var/www/html/vulnerabilities/javascript/source/medium.php
+2026-08-24 21:54:18,481  INFO     PATCHED  [31/82]  l0/open_redirect/high
+2026-08-24 21:54:18,511  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=False
+2026-08-24 21:54:18,522  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:54:18,522  INFO     PATCHED  [32/82]  l0/open_redirect/low
+2026-08-24 21:54:18,549  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=False
+2026-08-24 21:54:18,560  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:54:18,561  INFO     PATCHED  [33/82]  l0/open_redirect/medium
+2026-08-24 21:54:18,586  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=False
+2026-08-24 21:54:18,597  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:54:18,597  INFO     PATCHED  [34/82]  l0/sqli/high
+2026-08-24 21:54:18,622  INFO     [sqli/high] GET /vulnerabilities/sqli/ → HTTP 200  len=4526  err=False
+2026-08-24 21:54:18,636  INFO     Restored /var/www/html/vulnerabilities/sqli/source/high.php
+2026-08-24 21:54:18,636  INFO     PATCHED  [35/82]  l0/sqli/low
+2026-08-24 21:54:18,663  INFO     [sqli/low] GET /vulnerabilities/sqli/ → HTTP 200  len=4651  err=False
+2026-08-24 21:54:18,676  INFO     Restored /var/www/html/vulnerabilities/sqli/source/low.php
+2026-08-24 21:54:18,676  INFO     PATCHED  [36/82]  l0/sqli/medium
+2026-08-24 21:54:18,703  INFO     [sqli/medium] GET /vulnerabilities/sqli/ → HTTP 200  len=4730  err=False
+2026-08-24 21:54:18,717  INFO     Restored /var/www/html/vulnerabilities/sqli/source/medium.php
+2026-08-24 21:54:18,717  INFO     PATCHED  [37/82]  l0/sqli_blind/high
+2026-08-24 21:54:18,747  INFO     [sqli_blind/high] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4594  err=False
+2026-08-24 21:54:18,759  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/high.php
+2026-08-24 21:54:18,759  INFO     PATCHED  [38/82]  l0/sqli_blind/low
+2026-08-24 21:54:18,788  INFO     [sqli_blind/low] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4703  err=False
+2026-08-24 21:54:18,803  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/low.php
+2026-08-24 21:54:18,803  INFO     PATCHED  [39/82]  l0/sqli_blind/medium
+2026-08-24 21:54:18,831  INFO     [sqli_blind/medium] GET /vulnerabilities/sqli_blind/ → HTTP 200  len=4799  err=False
+2026-08-24 21:54:18,842  INFO     Restored /var/www/html/vulnerabilities/sqli_blind/source/medium.php
+2026-08-24 21:54:18,842  INFO     PATCHED  [40/82]  l0/upload/high
+2026-08-24 21:54:18,869  INFO     [upload/high] GET /vulnerabilities/upload/ → HTTP 200  len=4517  err=False
+2026-08-24 21:54:18,882  INFO     Restored /var/www/html/vulnerabilities/upload/source/high.php
+2026-08-24 21:54:18,882  INFO     PATCHED  [41/82]  l0/upload/low
+2026-08-24 21:54:18,909  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=False
+2026-08-24 21:54:18,921  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:54:18,921  INFO     PATCHED  [42/82]  l0/upload/medium
+2026-08-24 21:54:18,949  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=False
+2026-08-24 21:54:18,962  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:54:18,962  INFO     PATCHED  [43/82]  l0/weak_id/high
+2026-08-24 21:54:18,991  INFO     [weak_id/high] GET /vulnerabilities/weak_id/ → HTTP 200  len=4935  err=True
+2026-08-24 21:54:19,003  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/high.php
+2026-08-24 21:54:19,003  INFO     PATCHED  [44/82]  l0/weak_id/low
+2026-08-24 21:54:19,026  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:54:19,038  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:54:19,038  INFO     PATCHED  [45/82]  l0/weak_id/medium
+2026-08-24 21:54:19,068  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=False
+2026-08-24 21:54:19,079  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:54:19,079  INFO     PATCHED  [46/82]  l0/xss_d/high
+2026-08-24 21:54:19,109  INFO     [xss_d/high] GET /vulnerabilities/xss_d/ → HTTP 200  len=5143  err=False
+2026-08-24 21:54:19,121  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/high.php
+2026-08-24 21:54:19,121  INFO     PATCHED  [47/82]  l0/xss_d/low
+2026-08-24 21:54:19,150  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=False
+2026-08-24 21:54:19,162  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:54:19,162  INFO     PATCHED  [48/82]  l0/xss_d/medium
+2026-08-24 21:54:19,192  INFO     [xss_d/medium] GET /vulnerabilities/xss_d/ → HTTP 200  len=5149  err=False
+2026-08-24 21:54:19,205  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/medium.php
+2026-08-24 21:54:19,205  INFO     PATCHED  [49/82]  l0/xss_r/high
+2026-08-24 21:54:19,228  INFO     [xss_r/high] GET /vulnerabilities/xss_r/ → HTTP 200  len=4773  err=False
+2026-08-24 21:54:19,242  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/high.php
+2026-08-24 21:54:19,242  INFO     PATCHED  [50/82]  l0/xss_r/low
+2026-08-24 21:54:19,270  INFO     [xss_r/low] GET /vulnerabilities/xss_r/ → HTTP 200  len=4770  err=False
+2026-08-24 21:54:19,282  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/low.php
+2026-08-24 21:54:19,282  INFO     PATCHED  [51/82]  l0/xss_r/medium
+2026-08-24 21:54:19,307  INFO     [xss_r/medium] GET /vulnerabilities/xss_r/ → HTTP 200  len=4779  err=False
+2026-08-24 21:54:19,322  INFO     Restored /var/www/html/vulnerabilities/xss_r/source/medium.php
+2026-08-24 21:54:19,323  INFO     PATCHED  [52/82]  l0/xss_s/high
+2026-08-24 21:54:19,355  INFO     [xss_s/high] POST /vulnerabilities/xss_s/ → HTTP 200  len=6308  err=False
+2026-08-24 21:54:19,366  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/high.php
+2026-08-24 21:54:19,367  INFO     PATCHED  [53/82]  l0/xss_s/low
+2026-08-24 21:54:19,392  INFO     [xss_s/low] POST /vulnerabilities/xss_s/ → HTTP 200  len=6386  err=False
+2026-08-24 21:54:19,406  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/low.php
+2026-08-24 21:54:19,407  INFO     PATCHED  [54/82]  l0/xss_s/medium
+2026-08-24 21:54:19,435  INFO     [xss_s/medium] POST /vulnerabilities/xss_s/ → HTTP 200  len=6476  err=False
+2026-08-24 21:54:19,449  INFO     Restored /var/www/html/vulnerabilities/xss_s/source/medium.php
+2026-08-24 21:54:19,449  INFO     PATCHED  [55/82]  l1/authbypass/high
+2026-08-24 21:54:19,476  INFO     [authbypass/high] GET /vulnerabilities/authbypass/ → HTTP 200  len=4472  err=False
+2026-08-24 21:54:19,491  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/high.php
+2026-08-24 21:54:19,491  INFO     PATCHED  [56/82]  l1/authbypass/low
+2026-08-24 21:54:19,518  INFO     [authbypass/low] GET /vulnerabilities/authbypass/ → HTTP 200  len=4469  err=False
+2026-08-24 21:54:19,533  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/low.php
+2026-08-24 21:54:19,533  INFO     PATCHED  [57/82]  l1/authbypass/medium
+2026-08-24 21:54:19,562  INFO     [authbypass/medium] GET /vulnerabilities/authbypass/ → HTTP 200  len=4478  err=False
+2026-08-24 21:54:19,576  INFO     Restored /var/www/html/vulnerabilities/authbypass/source/medium.php
+2026-08-24 21:54:19,576  INFO     PATCHED  [58/82]  l1/csrf/low
+2026-08-24 21:54:19,604  INFO     [csrf/low] GET /vulnerabilities/csrf/ → HTTP 200  len=5889  err=False
+2026-08-24 21:54:19,615  INFO     Restored /var/www/html/vulnerabilities/csrf/source/low.php
+2026-08-24 21:54:19,616  INFO     PATCHED  [59/82]  l1/csrf/medium
+2026-08-24 21:54:19,641  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=False
+2026-08-24 21:54:19,653  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:54:19,653  INFO     PATCHED  [60/82]  l1/fi/high
+2026-08-24 21:54:19,680  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:54:19,691  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:54:19,691  INFO     PATCHED  [61/82]  l1/javascript/high
+2026-08-24 21:54:19,719  INFO     [javascript/high] GET /vulnerabilities/javascript/ → HTTP 200  len=4750  err=False
+2026-08-24 21:54:19,734  INFO     Restored /var/www/html/vulnerabilities/javascript/source/high.php
+2026-08-24 21:54:19,734  INFO     PATCHED  [62/82]  l1/javascript/low
+2026-08-24 21:54:19,759  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=False
+2026-08-24 21:54:19,772  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:54:19,772  INFO     PATCHED  [63/82]  l1/javascript/medium
+2026-08-24 21:54:19,798  INFO     [javascript/medium] GET /vulnerabilities/javascript/ → HTTP 200  len=4758  err=False
+2026-08-24 21:54:19,809  INFO     Restored /var/www/html/vulnerabilities/javascript/source/medium.php
+2026-08-24 21:54:19,809  INFO     PATCHED  [64/82]  l1/open_redirect/high
+2026-08-24 21:54:19,834  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=False
+2026-08-24 21:54:19,848  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:54:19,848  INFO     PATCHED  [65/82]  l1/open_redirect/low
+2026-08-24 21:54:19,872  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=False
+2026-08-24 21:54:19,885  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:54:19,885  INFO     PATCHED  [66/82]  l1/open_redirect/medium
+2026-08-24 21:54:19,912  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=False
+2026-08-24 21:54:19,927  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:54:19,927  INFO     PATCHED  [67/82]  l1/upload/low
+2026-08-24 21:54:19,954  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=False
+2026-08-24 21:54:19,968  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:54:19,969  INFO     PATCHED  [68/82]  l1/upload/medium
+2026-08-24 21:54:19,994  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=False
+2026-08-24 21:54:20,007  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:54:20,007  INFO     PATCHED  [69/82]  l1/weak_id/low
+2026-08-24 21:54:20,036  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:54:20,049  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:54:20,049  INFO     PATCHED  [70/82]  l1/weak_id/medium
+2026-08-24 21:54:20,075  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=False
+2026-08-24 21:54:20,087  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:54:20,087  INFO     PATCHED  [71/82]  l1/xss_d/low
+2026-08-24 21:54:20,112  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=False
+2026-08-24 21:54:20,124  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:54:20,124  INFO     PATCHED  [72/82]  l2/csrf/medium
+2026-08-24 21:54:20,151  INFO     [csrf/medium] GET /vulnerabilities/csrf/ → HTTP 200  len=5898  err=False
+2026-08-24 21:54:20,163  INFO     Restored /var/www/html/vulnerabilities/csrf/source/medium.php
+2026-08-24 21:54:20,163  INFO     PATCHED  [73/82]  l2/fi/high
+2026-08-24 21:54:20,187  INFO     [fi/high] GET /vulnerabilities/fi/ → HTTP 200  len=22  err=False
+2026-08-24 21:54:20,201  INFO     Restored /var/www/html/vulnerabilities/fi/source/high.php
+2026-08-24 21:54:20,201  INFO     PATCHED  [74/82]  l2/javascript/low
+2026-08-24 21:54:20,228  INFO     [javascript/low] GET /vulnerabilities/javascript/ → HTTP 200  len=8898  err=False
+2026-08-24 21:54:20,240  INFO     Restored /var/www/html/vulnerabilities/javascript/source/low.php
+2026-08-24 21:54:20,241  INFO     PATCHED  [75/82]  l2/open_redirect/high
+2026-08-24 21:54:20,267  INFO     [open_redirect/high] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4774  err=False
+2026-08-24 21:54:20,278  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/high.php
+2026-08-24 21:54:20,278  INFO     PATCHED  [76/82]  l2/open_redirect/low
+2026-08-24 21:54:20,305  INFO     [open_redirect/low] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4769  err=False
+2026-08-24 21:54:20,317  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/low.php
+2026-08-24 21:54:20,318  INFO     PATCHED  [77/82]  l2/open_redirect/medium
+2026-08-24 21:54:20,344  INFO     [open_redirect/medium] GET /vulnerabilities/open_redirect/ → HTTP 200  len=4784  err=False
+2026-08-24 21:54:20,358  INFO     Restored /var/www/html/vulnerabilities/open_redirect/source/medium.php
+2026-08-24 21:54:20,358  INFO     PATCHED  [78/82]  l2/upload/low
+2026-08-24 21:54:20,384  INFO     [upload/low] GET /vulnerabilities/upload/ → HTTP 200  len=4514  err=False
+2026-08-24 21:54:20,398  INFO     Restored /var/www/html/vulnerabilities/upload/source/low.php
+2026-08-24 21:54:20,398  INFO     PATCHED  [79/82]  l2/upload/medium
+2026-08-24 21:54:20,426  INFO     [upload/medium] GET /vulnerabilities/upload/ → HTTP 200  len=4523  err=False
+2026-08-24 21:54:20,437  INFO     Restored /var/www/html/vulnerabilities/upload/source/medium.php
+2026-08-24 21:54:20,437  INFO     PATCHED  [80/82]  l2/weak_id/low
+2026-08-24 21:54:20,465  INFO     [weak_id/low] GET /vulnerabilities/weak_id/ → HTTP 200  len=4928  err=True
+2026-08-24 21:54:20,478  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/low.php
+2026-08-24 21:54:20,478  INFO     PATCHED  [81/82]  l2/weak_id/medium
+2026-08-24 21:54:20,504  INFO     [weak_id/medium] GET /vulnerabilities/weak_id/ → HTTP 200  len=3964  err=False
+2026-08-24 21:54:20,518  INFO     Restored /var/www/html/vulnerabilities/weak_id/source/medium.php
+2026-08-24 21:54:20,518  INFO     PATCHED  [82/82]  l2/xss_d/low
+2026-08-24 21:54:20,544  INFO     [xss_d/low] GET /vulnerabilities/xss_d/ → HTTP 200  len=5140  err=False
+2026-08-24 21:54:20,556  INFO     Restored /var/www/html/vulnerabilities/xss_d/source/low.php
+2026-08-24 21:54:20,556  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/patched.json.
+2026-08-24 21:54:20,557  INFO     Wrote /home/user/cve-llm/cve_fixed_v3/results.csv (82 rows).
+2026-08-24 21:54:20,557  INFO     === Done. Full request log: /home/user/cve-llm/cve_fixed_v3/patch_tester.log ===

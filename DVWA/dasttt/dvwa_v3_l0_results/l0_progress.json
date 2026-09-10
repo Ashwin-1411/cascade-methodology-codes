@@ -1,0 +1,488 @@
+{
+  "api_high": {
+    "case_id": "api_high",
+    "vuln_dir": "api",
+    "filename": "high.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 9.2,
+    "fix_len": 1199
+  },
+  "api_low": {
+    "case_id": "api_low",
+    "vuln_dir": "api",
+    "filename": "low.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 18.0,
+    "fix_len": 3028
+  },
+  "api_medium": {
+    "case_id": "api_medium",
+    "vuln_dir": "api",
+    "filename": "medium.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 16.1,
+    "fix_len": 2545
+  },
+  "authbypass_high": {
+    "case_id": "authbypass_high",
+    "vuln_dir": "authbypass",
+    "filename": "high.php",
+    "cwe_id": "284",
+    "status": "generated",
+    "elapsed_s": 2.1,
+    "fix_len": 359
+  },
+  "authbypass_low": {
+    "case_id": "authbypass_low",
+    "vuln_dir": "authbypass",
+    "filename": "low.php",
+    "cwe_id": "284",
+    "status": "generated",
+    "elapsed_s": 1.0,
+    "fix_len": 148
+  },
+  "authbypass_medium": {
+    "case_id": "authbypass_medium",
+    "vuln_dir": "authbypass",
+    "filename": "medium.php",
+    "cwe_id": "284",
+    "status": "generated",
+    "elapsed_s": 2.3,
+    "fix_len": 412
+  },
+  "bac_high": {
+    "case_id": "bac_high",
+    "vuln_dir": "bac",
+    "filename": "high.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 26.1,
+    "fix_len": 5112
+  },
+  "bac_low": {
+    "case_id": "bac_low",
+    "vuln_dir": "bac",
+    "filename": "low.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 23.9,
+    "fix_len": 4666
+  },
+  "bac_medium": {
+    "case_id": "bac_medium",
+    "vuln_dir": "bac",
+    "filename": "medium.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 21.2,
+    "fix_len": 4112
+  },
+  "brute_high": {
+    "case_id": "brute_high",
+    "vuln_dir": "brute",
+    "filename": "high.php",
+    "cwe_id": "307",
+    "status": "generated",
+    "elapsed_s": 12.2,
+    "fix_len": 1929
+  },
+  "brute_low": {
+    "case_id": "brute_low",
+    "vuln_dir": "brute",
+    "filename": "low.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 6.4,
+    "fix_len": 931
+  },
+  "brute_medium": {
+    "case_id": "brute_medium",
+    "vuln_dir": "brute",
+    "filename": "medium.php",
+    "cwe_id": "307",
+    "status": "generated",
+    "elapsed_s": 7.1,
+    "fix_len": 1065
+  },
+  "captcha_high": {
+    "case_id": "captcha_high",
+    "vuln_dir": "captcha",
+    "filename": "high.php",
+    "cwe_id": "287",
+    "status": "generated",
+    "elapsed_s": 13.0,
+    "fix_len": 1929
+  },
+  "captcha_low": {
+    "case_id": "captcha_low",
+    "vuln_dir": "captcha",
+    "filename": "low.php",
+    "cwe_id": "287",
+    "status": "generated",
+    "elapsed_s": 17.6,
+    "fix_len": 2614
+  },
+  "captcha_medium": {
+    "case_id": "captcha_medium",
+    "vuln_dir": "captcha",
+    "filename": "medium.php",
+    "cwe_id": "287",
+    "status": "generated",
+    "elapsed_s": 19.4,
+    "fix_len": 2863
+  },
+  "csp_high": {
+    "case_id": "csp_high",
+    "vuln_dir": "csp",
+    "filename": "high.php",
+    "cwe_id": "693",
+    "status": "generated",
+    "elapsed_s": 4.2,
+    "fix_len": 596
+  },
+  "csp_low": {
+    "case_id": "csp_low",
+    "vuln_dir": "csp",
+    "filename": "low.php",
+    "cwe_id": "693",
+    "status": "generated",
+    "elapsed_s": 8.0,
+    "fix_len": 1276
+  },
+  "csp_medium": {
+    "case_id": "csp_medium",
+    "vuln_dir": "csp",
+    "filename": "medium.php",
+    "cwe_id": "693",
+    "status": "generated",
+    "elapsed_s": 4.2,
+    "fix_len": 553
+  },
+  "csrf_high": {
+    "case_id": "csrf_high",
+    "vuln_dir": "csrf",
+    "filename": "high.php",
+    "cwe_id": "352",
+    "status": "generated",
+    "elapsed_s": 12.6,
+    "fix_len": 2031
+  },
+  "csrf_low": {
+    "case_id": "csrf_low",
+    "vuln_dir": "csrf",
+    "filename": "low.php",
+    "cwe_id": "352",
+    "status": "generated",
+    "elapsed_s": 8.7,
+    "fix_len": 1343
+  },
+  "csrf_medium": {
+    "case_id": "csrf_medium",
+    "vuln_dir": "csrf",
+    "filename": "medium.php",
+    "cwe_id": "352",
+    "status": "generated",
+    "elapsed_s": 10.5,
+    "fix_len": 1606
+  },
+  "exec_high": {
+    "case_id": "exec_high",
+    "vuln_dir": "exec",
+    "filename": "high.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 7.2,
+    "fix_len": 918
+  },
+  "exec_low": {
+    "case_id": "exec_low",
+    "vuln_dir": "exec",
+    "filename": "low.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 4.3,
+    "fix_len": 535
+  },
+  "exec_medium": {
+    "case_id": "exec_medium",
+    "vuln_dir": "exec",
+    "filename": "medium.php",
+    "cwe_id": "78",
+    "status": "generated",
+    "elapsed_s": 4.7,
+    "fix_len": 589
+  },
+  "fi_high": {
+    "case_id": "fi_high",
+    "vuln_dir": "fi",
+    "filename": "high.php",
+    "cwe_id": "22",
+    "status": "generated",
+    "elapsed_s": 1.8,
+    "fix_len": 245
+  },
+  "fi_low": {
+    "case_id": "fi_low",
+    "vuln_dir": "fi",
+    "filename": "low.php",
+    "cwe_id": "22",
+    "status": "generated",
+    "elapsed_s": 0.6,
+    "fix_len": 74
+  },
+  "fi_medium": {
+    "case_id": "fi_medium",
+    "vuln_dir": "fi",
+    "filename": "medium.php",
+    "cwe_id": "22",
+    "status": "generated",
+    "elapsed_s": 0.8,
+    "fix_len": 110
+  },
+  "javascript_high": {
+    "case_id": "javascript_high",
+    "vuln_dir": "javascript",
+    "filename": "high.php",
+    "cwe_id": "602",
+    "status": "generated",
+    "elapsed_s": 1.0,
+    "fix_len": 146
+  },
+  "javascript_low": {
+    "case_id": "javascript_low",
+    "vuln_dir": "javascript",
+    "filename": "low.php",
+    "cwe_id": "602",
+    "status": "generated",
+    "elapsed_s": 54.8,
+    "fix_len": 4262
+  },
+  "javascript_medium": {
+    "case_id": "javascript_medium",
+    "vuln_dir": "javascript",
+    "filename": "medium.php",
+    "cwe_id": "602",
+    "status": "generated",
+    "elapsed_s": 1.0,
+    "fix_len": 148
+  },
+  "open_redirect_high": {
+    "case_id": "open_redirect_high",
+    "vuln_dir": "open_redirect",
+    "filename": "high.php",
+    "cwe_id": "601",
+    "status": "generated",
+    "elapsed_s": 3.1,
+    "fix_len": 475
+  },
+  "open_redirect_low": {
+    "case_id": "open_redirect_low",
+    "vuln_dir": "open_redirect",
+    "filename": "low.php",
+    "cwe_id": "601",
+    "status": "generated",
+    "elapsed_s": 1.6,
+    "fix_len": 237
+  },
+  "open_redirect_medium": {
+    "case_id": "open_redirect_medium",
+    "vuln_dir": "open_redirect",
+    "filename": "medium.php",
+    "cwe_id": "601",
+    "status": "generated",
+    "elapsed_s": 3.5,
+    "fix_len": 586
+  },
+  "sqli_high": {
+    "case_id": "sqli_high",
+    "vuln_dir": "sqli",
+    "filename": "high.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 10.2,
+    "fix_len": 1512
+  },
+  "sqli_low": {
+    "case_id": "sqli_low",
+    "vuln_dir": "sqli",
+    "filename": "low.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 10.0,
+    "fix_len": 1534
+  },
+  "sqli_medium": {
+    "case_id": "sqli_medium",
+    "vuln_dir": "sqli",
+    "filename": "medium.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 12.9,
+    "fix_len": 2033
+  },
+  "sqli_blind_high": {
+    "case_id": "sqli_blind_high",
+    "vuln_dir": "sqli_blind",
+    "filename": "high.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 10.7,
+    "fix_len": 1483
+  },
+  "sqli_blind_low": {
+    "case_id": "sqli_blind_low",
+    "vuln_dir": "sqli_blind",
+    "filename": "low.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 10.0,
+    "fix_len": 1424
+  },
+  "sqli_blind_medium": {
+    "case_id": "sqli_blind_medium",
+    "vuln_dir": "sqli_blind",
+    "filename": "medium.php",
+    "cwe_id": "89",
+    "status": "generated",
+    "elapsed_s": 10.3,
+    "fix_len": 1520
+  },
+  "upload_high": {
+    "case_id": "upload_high",
+    "vuln_dir": "upload",
+    "filename": "high.php",
+    "cwe_id": "434",
+    "status": "generated",
+    "elapsed_s": 8.5,
+    "fix_len": 1231
+  },
+  "upload_low": {
+    "case_id": "upload_low",
+    "vuln_dir": "upload",
+    "filename": "low.php",
+    "cwe_id": "434",
+    "status": "generated",
+    "elapsed_s": 5.3,
+    "fix_len": 795
+  },
+  "upload_medium": {
+    "case_id": "upload_medium",
+    "vuln_dir": "upload",
+    "filename": "medium.php",
+    "cwe_id": "434",
+    "status": "generated",
+    "elapsed_s": 8.2,
+    "fix_len": 1229
+  },
+  "weak_id_high": {
+    "case_id": "weak_id_high",
+    "vuln_dir": "weak_id",
+    "filename": "high.php",
+    "cwe_id": "330",
+    "status": "generated",
+    "elapsed_s": 3.0,
+    "fix_len": 433
+  },
+  "weak_id_low": {
+    "case_id": "weak_id_low",
+    "vuln_dir": "weak_id",
+    "filename": "low.php",
+    "cwe_id": "330",
+    "status": "generated",
+    "elapsed_s": 3.3,
+    "fix_len": 423
+  },
+  "weak_id_medium": {
+    "case_id": "weak_id_medium",
+    "vuln_dir": "weak_id",
+    "filename": "medium.php",
+    "cwe_id": "330",
+    "status": "generated",
+    "elapsed_s": 3.3,
+    "fix_len": 458
+  },
+  "xss_d_high": {
+    "case_id": "xss_d_high",
+    "vuln_dir": "xss_d",
+    "filename": "high.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 2.3,
+    "fix_len": 370
+  },
+  "xss_d_low": {
+    "case_id": "xss_d_low",
+    "vuln_dir": "xss_d",
+    "filename": "low.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 0.4,
+    "fix_len": 43
+  },
+  "xss_d_medium": {
+    "case_id": "xss_d_medium",
+    "vuln_dir": "xss_d",
+    "filename": "medium.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 2.5,
+    "fix_len": 391
+  },
+  "xss_r_high": {
+    "case_id": "xss_r_high",
+    "vuln_dir": "xss_r",
+    "filename": "high.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 2.1,
+    "fix_len": 281
+  },
+  "xss_r_low": {
+    "case_id": "xss_r_low",
+    "vuln_dir": "xss_r",
+    "filename": "low.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 2.1,
+    "fix_len": 272
+  },
+  "xss_r_medium": {
+    "case_id": "xss_r_medium",
+    "vuln_dir": "xss_r",
+    "filename": "medium.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 2.1,
+    "fix_len": 281
+  },
+  "xss_s_high": {
+    "case_id": "xss_s_high",
+    "vuln_dir": "xss_s",
+    "filename": "high.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 4.1,
+    "fix_len": 561
+  },
+  "xss_s_low": {
+    "case_id": "xss_s_low",
+    "vuln_dir": "xss_s",
+    "filename": "low.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 5.3,
+    "fix_len": 797
+  },
+  "xss_s_medium": {
+    "case_id": "xss_s_medium",
+    "vuln_dir": "xss_s",
+    "filename": "medium.php",
+    "cwe_id": "79",
+    "status": "generated",
+    "elapsed_s": 4.0,
+    "fix_len": 597
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "api/high": {
+    "status": 200,
+    "length": 5562,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: API Security :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"he"
+  },
+  "api/low": {
+    "status": 200,
+    "length": 7189,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: API Security :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"he"
+  },
+  "api/medium": {
+    "status": 200,
+    "length": 6790,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: API Security :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"he"
+  },
+  "authbypass/high": {
+    "status": 200,
+    "length": 4472,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Authorisation Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<di"
+  },
+  "authbypass/low": {
+    "status": 200,
+    "length": 4469,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Authorisation Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<di"
+  },
+  "authbypass/medium": {
+    "status": 200,
+    "length": 4478,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Authorisation Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<di"
+  },
+  "bac/high": {
+    "status": 200,
+    "length": 5475,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Broken Access Control :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "bac/low": {
+    "status": 200,
+    "length": 5529,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Broken Access Control :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "bac/medium": {
+    "status": 200,
+    "length": 5481,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Broken Access Control :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "brute/high": {
+    "status": 200,
+    "length": 379,
+    "has_error": true,
+    "body_snippet": "<br />\n<b>Warning</b>:  Undefined array key \"user_token\" in <b>/var/www/html/vulnerabilities/brute/source/high.php</b> on line <b>5</b><br />\n<br />\n<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/vulnerabilities/brute/source/high.php:5) in <b>/var/www/html/dvwa/includes/dvwaPage.inc.php</b> on line <b>605</b><br />\n"
+  },
+  "brute/low": {
+    "status": 200,
+    "length": 4628,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Brute Force :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"hea"
+  },
+  "brute/medium": {
+    "status": 200,
+    "length": 4556,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Brute Force :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"hea"
+  },
+  "captcha/high": {
+    "status": 200,
+    "length": 6641,
+    "has_error": true,
+    "body_snippet": "<br />\n<b>Warning</b>:  Undefined array key \"g-recaptcha-response\" in <b>/var/www/html/vulnerabilities/captcha/source/high.php</b> on line <b>14</b><br />\n<br />\n<b>Deprecated</b>:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/external/recaptcha/recaptchalib.php</b> on line <b>15</b><br />\n<br />\n<b>Warning</b>:  Undefined array key \"g-recaptcha-response\" in <b>/var/www/html/vulnerabilities/captcha/source/high.php</b> on line <b>20</b><br /"
+  },
+  "captcha/low": {
+    "status": 200,
+    "length": 6292,
+    "has_error": true,
+    "body_snippet": "<br />\n<b>Warning</b>:  Undefined array key \"g-recaptcha-response\" in <b>/var/www/html/vulnerabilities/captcha/source/low.php</b> on line <b>14</b><br />\n<br />\n<b>Deprecated</b>:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/external/recaptcha/recaptchalib.php</b> on line <b>15</b><br />\n<br />\n<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/vulnerabilities/captcha/source/low.php"
+  },
+  "captcha/medium": {
+    "status": 200,
+    "length": 6313,
+    "has_error": true,
+    "body_snippet": "<br />\n<b>Warning</b>:  Undefined array key \"g-recaptcha-response\" in <b>/var/www/html/vulnerabilities/captcha/source/medium.php</b> on line <b>14</b><br />\n<br />\n<b>Deprecated</b>:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/external/recaptcha/recaptchalib.php</b> on line <b>15</b><br />\n<br />\n<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/vulnerabilities/captcha/source/medi"
+  },
+  "csp/high": {
+    "status": 200,
+    "length": 4727,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Content Security Policy (CSP) Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "csp/low": {
+    "status": 200,
+    "length": 4837,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Content Security Policy (CSP) Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "csp/medium": {
+    "status": 200,
+    "length": 4679,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Content Security Policy (CSP) Bypass :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "csrf/high": {
+    "status": 200,
+    "length": 5977,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Cross Site Request Forgery (CSRF) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  },
+  "csrf/low": {
+    "status": 200,
+    "length": 5889,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Cross Site Request Forgery (CSRF) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  },
+  "csrf/medium": {
+    "status": 200,
+    "length": 5898,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Cross Site Request Forgery (CSRF) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  },
+  "exec/high": {
+    "status": 200,
+    "length": 5060,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Command Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div i"
+  },
+  "exec/low": {
+    "status": 200,
+    "length": 5057,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Command Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div i"
+  },
+  "exec/medium": {
+    "status": 200,
+    "length": 5066,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Command Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div i"
+  },
+  "fi/high": {
+    "status": 200,
+    "length": 22,
+    "has_error": false,
+    "body_snippet": "ERROR: File not found!"
+  },
+  "fi/low": {
+    "status": 200,
+    "length": 5235,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: File Inclusion :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\""
+  },
+  "fi/medium": {
+    "status": 200,
+    "length": 5244,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: File Inclusion :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\""
+  },
+  "javascript/high": {
+    "status": 200,
+    "length": 4750,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: JavaScript Attacks :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "javascript/low": {
+    "status": 200,
+    "length": 8817,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: JavaScript Attacks :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "javascript/medium": {
+    "status": 200,
+    "length": 4758,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: JavaScript Attacks :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "open_redirect/high": {
+    "status": 200,
+    "length": 4774,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Open HTTP Redirect :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "open_redirect/low": {
+    "status": 200,
+    "length": 4769,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Open HTTP Redirect :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "open_redirect/medium": {
+    "status": 200,
+    "length": 4784,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Open HTTP Redirect :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div "
+  },
+  "sqli/high": {
+    "status": 200,
+    "length": 4526,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"h"
+  },
+  "sqli/low": {
+    "status": 200,
+    "length": 4651,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"h"
+  },
+  "sqli/medium": {
+    "status": 200,
+    "length": 4730,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"h"
+  },
+  "sqli_blind/high": {
+    "status": 200,
+    "length": 4594,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection (Blind) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "sqli_blind/low": {
+    "status": 200,
+    "length": 4703,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection (Blind) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "sqli_blind/medium": {
+    "status": 200,
+    "length": 4799,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: SQL Injection (Blind) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<d"
+  },
+  "upload/high": {
+    "status": 200,
+    "length": 4517,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: File Upload :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"hea"
+  },
+  "upload/low": {
+    "status": 200,
+    "length": 4514,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: File Upload :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"hea"
+  },
+  "upload/medium": {
+    "status": 200,
+    "length": 4523,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: File Upload :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id=\"hea"
+  },
+  "weak_id/high": {
+    "status": 200,
+    "length": 3958,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Weak Session IDs :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id"
+  },
+  "weak_id/low": {
+    "status": 200,
+    "length": 3955,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Weak Session IDs :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id"
+  },
+  "weak_id/medium": {
+    "status": 200,
+    "length": 3964,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Weak Session IDs :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"container\">\n\n\t\t\t<div id"
+  },
+  "xss_d/high": {
+    "status": 200,
+    "length": 5143,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: DOM Based Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_d/low": {
+    "status": 200,
+    "length": 5140,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: DOM Based Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_d/medium": {
+    "status": 200,
+    "length": 5149,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: DOM Based Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_r/high": {
+    "status": 200,
+    "length": 4773,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Reflected Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_r/low": {
+    "status": 200,
+    "length": 4770,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Reflected Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_r/medium": {
+    "status": 200,
+    "length": 4779,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Reflected Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"con"
+  },
+  "xss_s/high": {
+    "status": 200,
+    "length": 6065,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Stored Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  },
+  "xss_s/low": {
+    "status": 200,
+    "length": 6143,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Stored Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  },
+  "xss_s/medium": {
+    "status": 200,
+    "length": 6233,
+    "has_error": false,
+    "body_snippet": "<!DOCTYPE html>\n\n<html lang=\"en-GB\">\n\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n\t\t<title>Vulnerability: Stored Cross Site Scripting (XSS) :: Damn Vulnerable Web Application (DVWA)</title>\n\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../dvwa/css/main.css\" />\n\n\t\t<link rel=\"icon\" type=\"\\image/ico\" href=\"../../favicon.ico\" />\n\n\t\t<script type=\"text/javascript\" src=\"../../dvwa/js/dvwaPage.js\"></script>\n\n\t</head>\n\n\t<body class=\"home light\">\n\t\t<div id=\"contai"
+  }
+}

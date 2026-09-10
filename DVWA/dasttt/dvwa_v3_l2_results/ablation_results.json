@@ -1,0 +1,8 @@
+{
+  "nodast|open_redirect_high": "PIR",
+  "nodast|open_redirect_low": "CFR",
+  "nodast|open_redirect_medium": "CFR",
+  "nohint|open_redirect_high": "PIR",
+  "nohint|open_redirect_low": "PIR",
+  "nohint|open_redirect_medium": "PIR"
+}

@@ -1,0 +1,206 @@
+{
+  "level": "L1",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "prompt_type": "raw_code_plus_sast_plus_context",
+  "timestamp": "2026-08-23T15:30:36.375901+00:00",
+  "total_cases": 17,
+  "summary": {
+    "CFR": 6,
+    "PIR": 11,
+    "IFR": 0,
+    "CFR_pct": 35.3,
+    "PIR_pct": 64.7,
+    "IFR_pct": 0.0
+  },
+  "cases": [
+    {
+      "case_id": "authbypass_high",
+      "vuln_dir": "authbypass",
+      "filename": "high.php",
+      "cwe_id": "284",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-284 resolved [pattern:authbypass] \u2014 Auth check on current user + deny response (403/exit) present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "authbypass_low",
+      "vuln_dir": "authbypass",
+      "filename": "low.php",
+      "cwe_id": "284",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-284 resolved [pattern:authbypass] \u2014 Auth check on current user + deny response (403/exit) present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "authbypass_medium",
+      "vuln_dir": "authbypass",
+      "filename": "medium.php",
+      "cwe_id": "284",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-284 resolved [pattern:authbypass] \u2014 Auth check on current user + deny response (403/exit) present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "csrf_low",
+      "vuln_dir": "csrf",
+      "filename": "low.php",
+      "cwe_id": "352",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-352 resolved [pattern:csrf] \u2014 CSRF token validation + generation present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "csrf_medium",
+      "vuln_dir": "csrf",
+      "filename": "medium.php",
+      "cwe_id": "352",
+      "outcome": "PIR",
+      "reason": "CWE-352 not resolved [pattern:csrf] \u2014 Missing CSRF controls: token validation, token generation",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "fi_high",
+      "vuln_dir": "fi",
+      "filename": "high.php",
+      "cwe_id": "22",
+      "outcome": "PIR",
+      "reason": "CWE-22 not resolved [pattern:fi] \u2014 No whitelist (in_array) or path sanitization (basename/realpath) found",
+      "orig_cwes": [
+        "918"
+      ],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "javascript_high",
+      "vuln_dir": "javascript",
+      "filename": "high.php",
+      "cwe_id": "602",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-602 resolved [pattern:javascript] \u2014 Server-side PHP validation of POST input present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "javascript_low",
+      "vuln_dir": "javascript",
+      "filename": "low.php",
+      "cwe_id": "602",
+      "outcome": "PIR",
+      "reason": "CWE-602 not resolved [pattern:javascript] \u2014 No server-side PHP validation found (still JS-only or empty)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "javascript_medium",
+      "vuln_dir": "javascript",
+      "filename": "medium.php",
+      "cwe_id": "602",
+      "outcome": "CFR",
+      "reason": "PHP lint OK + CWE-602 resolved [pattern:javascript] \u2014 Server-side PHP validation of POST input present",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_high",
+      "vuln_dir": "open_redirect",
+      "filename": "high.php",
+      "cwe_id": "601",
+      "outcome": "PIR",
+      "reason": "CWE-601 not resolved [pattern:open_redirect] \u2014 Redirect target not validated with is_numeric() + whitelist",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_low",
+      "vuln_dir": "open_redirect",
+      "filename": "low.php",
+      "cwe_id": "601",
+      "outcome": "PIR",
+      "reason": "CWE-601 not resolved [pattern:open_redirect] \u2014 Redirect target not validated with is_numeric() + whitelist",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "open_redirect_medium",
+      "vuln_dir": "open_redirect",
+      "filename": "medium.php",
+      "cwe_id": "601",
+      "outcome": "PIR",
+      "reason": "CWE-601 not resolved [pattern:open_redirect] \u2014 header(location:) still passes raw user input directly",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "upload_low",
+      "vuln_dir": "upload",
+      "filename": "low.php",
+      "cwe_id": "434",
+      "outcome": "PIR",
+      "reason": "CWE-434 not resolved [pattern:upload] \u2014 Missing server-side file type check (getimagesize or ext+MIME whitelist)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "upload_medium",
+      "vuln_dir": "upload",
+      "filename": "medium.php",
+      "cwe_id": "434",
+      "outcome": "PIR",
+      "reason": "CWE-434 not resolved [pattern:upload] \u2014 Missing server-side file type check (getimagesize or ext+MIME whitelist)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "weak_id_low",
+      "vuln_dir": "weak_id",
+      "filename": "low.php",
+      "cwe_id": "330",
+      "outcome": "PIR",
+      "reason": "CWE-330 not resolved [pattern:weak_id] \u2014 No strong random ID generation (random_bytes / sha1(mt_rand()) / hash)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "weak_id_medium",
+      "vuln_dir": "weak_id",
+      "filename": "medium.php",
+      "cwe_id": "330",
+      "outcome": "PIR",
+      "reason": "CWE-330 not resolved [pattern:weak_id] \u2014 No strong random ID generation (random_bytes / sha1(mt_rand()) / hash)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    },
+    {
+      "case_id": "xss_d_low",
+      "vuln_dir": "xss_d",
+      "filename": "low.php",
+      "cwe_id": "79",
+      "outcome": "PIR",
+      "reason": "CWE-79 not resolved [pattern:xss_d] \u2014 No DOM XSS protection found (whitelist, sanitization, or textContent)",
+      "orig_cwes": [],
+      "fix_cwes": [],
+      "new_cwes": []
+    }
+  ]
+}

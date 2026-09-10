@@ -1,0 +1,30 @@
+{
+    "_comment": "DVWA ground truth for ablation study. These are KNOWN vulnerabilities at security=low.",
+    "_instructions": "Update true_positives with actual fingerprints/URLs from your scan output. The URL-based keys below will match against mf.location in the ablation scorer.",
+    "true_positives": [
+        "http://dast-target-container:80/vulnerabilities/sqli/",
+        "http://dast-target-container/vulnerabilities/sqli/",
+        "http://dast-target-container:80/vulnerabilities/sqli_blind/",
+        "http://dast-target-container:80/vulnerabilities/xss_r/",
+        "http://dast-target-container:80/vulnerabilities/xss_s/",
+        "http://dast-target-container:80/vulnerabilities/xss_d/",
+        "http://dast-target-container:80/vulnerabilities/exec/",
+        "http://dast-target-container:80/vulnerabilities/fi/",
+        "http://dast-target-container:80/vulnerabilities/upload/",
+        "http://dast-target-container:80/vulnerabilities/brute/",
+        "SQL Injection",
+        "Cross Site Scripting",
+        "Command Injection",
+        "Path Traversal",
+        "File Inclusion",
+        "Unrestricted File Upload"
+    ],
+    "false_positives": [
+        "Content Security Policy (CSP) Header Not Set",
+        "Missing Anti-clickjacking Header",
+        "X-Content-Type-Options Header Missing",
+        "Server Leaks Version Information",
+        "WAF Detection",
+        "Cookies without Secure attribute"
+    ]
+}

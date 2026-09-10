@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "files_evaluated": 53,
+    "excluded": [
+      "api_high"
+    ],
+    "modules": 18
+  },
+  "L0": {
+    "PIR": 28,
+    "IFR": 1,
+    "CFR": 24
+  },
+  "L1": {
+    "CFR": 6,
+    "PIR": 11
+  },
+  "L2": {
+    "CFR": 9,
+    "IFR": 1,
+    "PIR": 1
+  },
+  "cumulative": {
+    "after_L0": 24,
+    "after_L1": 30,
+    "after_L2": 39,
+    "denominator": 53
+  },
+  "not_escalated_after_reclassification": [
+    "api_low",
+    "api_medium",
+    "bac_high",
+    "bac_low",
+    "bac_medium",
+    "brute_high",
+    "brute_low",
+    "brute_medium",
+    "csp_high",
+    "csp_low",
+    "weak_id_high",
+    "xss_s_high"
+  ],
+  "validation": {
+    "manual_review": 11,
+    "exploit_replay": 21,
+    "smoke_test_broken": 7
+  }
+}
