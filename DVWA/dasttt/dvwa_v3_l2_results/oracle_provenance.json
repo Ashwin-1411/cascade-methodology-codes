@@ -48,12 +48,12 @@
     "filename": "low.php",
     "known_cwe": "284",
     "validated_label": "IFR",
-    "oracle": "unknown",
+    "oracle": "pre_check",
     "independent_of_prompt": false,
     "frontend_context_in_prompt": false,
     "fix_hint_in_prompt": false,
     "smoke_test": "passed",
-    "detail": "unrecognised reason tag: ''"
+    "detail": "IFR: duplicate output (unmodified copy of source), rejected by pre-check before harness"
   },
   {
     "level": "L0",
@@ -1014,12 +1014,12 @@
     "filename": "low.php",
     "known_cwe": "602",
     "validated_label": "IFR",
-    "oracle": "unknown",
+    "oracle": "pre_check",
     "independent_of_prompt": false,
     "frontend_context_in_prompt": true,
     "fix_hint_in_prompt": true,
     "smoke_test": "passed",
-    "detail": "unrecognised reason tag: ''"
+    "detail": "IFR: response below 30% length threshold, rejected by pre-check before harness"
   },
   {
     "level": "L2",

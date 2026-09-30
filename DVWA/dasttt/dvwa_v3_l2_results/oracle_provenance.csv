@@ -2,7 +2,7 @@ level,case,module,filename,known_cwe,validated_label,oracle,independent_of_promp
 L0,api_low,api,low.php,78,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
 L0,api_medium,api,medium.php,78,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
 L0,authbypass_high,authbypass,high.php,284,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
-L0,authbypass_low,authbypass,low.php,284,IFR,unknown,False,False,False,passed,unrecognised reason tag: ''
+L0,authbypass_low,authbypass,low.php,284,IFR,pre_check,False,False,False,passed,"IFR: duplicate output (unmodified copy of source), rejected by pre-check before harness"
 L0,authbypass_medium,authbypass,medium.php,284,PIR,verifier-independent,True,False,False,broken,verifier property not supplied to model
 L0,bac_high,bac,high.php,89,PIR,manual_review,True,False,False,passed,independent manual review vs DVWA reference
 L0,bac_low,bac,low.php,89,PIR,target_weakness_mismatch,True,False,False,passed,recorded target CWE is not the module's weakness
@@ -71,7 +71,7 @@ L1,weak_id_medium,weak_id,medium.php,330,PIR,verifier-independent,True,False,Fal
 L1,xss_d_low,xss_d,low.php,79,PIR,verifier-conformity,False,True,False,passed,verifier property also supplied to model via frontend context
 L2,csrf_medium,csrf,medium.php,352,CFR,verifier-conformity,False,True,True,passed,verifier property also supplied to model via frontend context + fix hint
 L2,fi_high,fi,high.php,22,CFR,replay,True,False,False,passed,exploit replay (L2): MITIGATED
-L2,javascript_low,javascript,low.php,602,IFR,unknown,False,True,True,passed,unrecognised reason tag: ''
+L2,javascript_low,javascript,low.php,602,IFR,pre_check,False,True,True,passed,"IFR: response below 30% length threshold, rejected by pre-check before harness"
 L2,open_redirect_high,open_redirect,high.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
 L2,open_redirect_low,open_redirect,low.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
 L2,open_redirect_medium,open_redirect,medium.php,601,CFR,replay,True,False,True,passed,exploit replay (L2): MITIGATED
