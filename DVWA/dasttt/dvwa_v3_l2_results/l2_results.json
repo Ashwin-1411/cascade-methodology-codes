@@ -2,10 +2,10 @@
   "level": "L2",
   "model": "Qwen/Qwen2.5-14B-Instruct",
   "prompt_type": "raw_code_plus_sast_plus_dast_plus_hint",
-  "timestamp": "2026-08-23T15:34:13.606268+00:00",
+  "timestamp": "2026-05-23T15:34:13.606268+00:00",
   "total_cases": 11,
   "summary": {
-    "CFR": 10,
+    "CFR": 10,  
     "PIR": 0,
     "IFR": 1,
     "CFR_pct": 90.9,

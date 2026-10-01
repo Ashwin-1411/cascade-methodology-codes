@@ -37,7 +37,7 @@ from ..core.docker_runner import APP_PORT
 
 ZAP_HOST_PORT = 8081
 ZAP_API_KEY   = "65a06u0hrv0l02utnag55lgeh7"
-ZAP_API       = f"http://localhost:{ZAP_HOST_PORT}"
+ZAP_API       = f"http://127.0.0.1:{ZAP_HOST_PORT}"
 POLICY_NAME   = "dvwa-injection-policy"
 
 SPIDER_TIMEOUT_S = 300
@@ -256,8 +256,8 @@ class ZapScanner(Scanner):
         active scan has real injection points to test.
         """
         proxies = {
-            "http":  f"http://localhost:{ZAP_HOST_PORT}",
-            "https": f"http://localhost:{ZAP_HOST_PORT}",
+            "http":  f"http://127.0.0.1:{ZAP_HOST_PORT}",
+            "https": f"http://127.0.0.1:{ZAP_HOST_PORT}",
         }
         cookies = {"PHPSESSID": phpsessid, "security": "low"}
         seeded  = 0

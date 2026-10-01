@@ -16,11 +16,14 @@ import time
 import os
 import urllib.request
 import urllib.parse
+import requests
 
 APP_PORT        = 8080
 NETWORK_NAME    = "dast-scan-net"
 CONTAINER_NAME  = "dast-target-container"
 MYSQL_CONTAINER = "dvwa-mysql"
+ZAP_CONTAINER   = "zap-daemon"
+ZAP_HOST_PORT   = 8081
 INTERNAL_PORT   = 80
 
 
@@ -70,6 +73,41 @@ def _start_mysql():
         print(f"[*] MySQL not ready yet ({attempt + 1}/24)...")
 
     print("[!] MySQL did not become ready in time")
+    return False
+
+
+def _start_zap():
+    print("[*] Starting ZAP daemon...")
+    subprocess.run(["docker", "rm", "-f", ZAP_CONTAINER], capture_output=True)
+    subprocess.check_output([
+        "docker", "run", "-d",
+        "--name", ZAP_CONTAINER,
+        "--network", "host",
+        "ghcr.io/zaproxy/zaproxy:stable",
+        "zap.sh", "-daemon",
+        "-host", "127.0.0.1",   # loopback only — keeps proxy off external interfaces
+        "-port", str(ZAP_HOST_PORT),
+        "-config", "api.key=65a06u0hrv0l02utnag55lgeh7",
+        "-config", "api.addrs.addr.name=.*",
+        "-config", "api.addrs.addr.regex=true",
+    ], text=True)
+
+    print("[*] Waiting for ZAP to be ready (~30s)...")
+    for attempt in range(40):
+        try:
+            r = requests.get(
+                f"http://127.0.0.1:{ZAP_HOST_PORT}/JSON/core/view/version/",
+                params={"apikey": "65a06u0hrv0l02utnag55lgeh7"},
+                timeout=5,
+            )
+            if r.status_code == 200:
+                print(f"[*] ZAP daemon ready (attempt {attempt + 1})")
+                return True
+        except Exception:
+            pass
+        time.sleep(5)
+
+    print("[!] ZAP daemon did not become ready in time")
     return False
 
 
@@ -150,6 +188,10 @@ def build_and_run(repo):
         time.sleep(3)
     except Exception as e:
         print(f"[*] DB init: {e}")
+
+    # Step 4: Start ZAP daemon
+    if not _start_zap():
+        raise RuntimeError("ZAP daemon failed to start")
 
     return {
         "container_id": cid,

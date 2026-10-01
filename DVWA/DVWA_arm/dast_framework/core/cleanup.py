@@ -4,13 +4,20 @@ Cleans up Docker containers, networks and temporary files after a scan.
 
 import subprocess
 import shutil
-from .docker_runner import NETWORK_NAME, CONTAINER_NAME
+from .docker_runner import NETWORK_NAME, CONTAINER_NAME, MYSQL_CONTAINER, ZAP_CONTAINER
 
 
 def cleanup_resources(container_id, repo_path, cloned):
+    # Stop ZAP daemon
+    subprocess.run(
+        ["docker", "rm", "-f", ZAP_CONTAINER],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL
+    )
+
     # Stop and remove the target container (by name is more reliable than ID)
     subprocess.run(
-        ["docker", "rm", "-f", CONTAINER_NAME],
+        ["docker", "rm", "-f", CONTAINER_NAME, MYSQL_CONTAINER],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL
     )

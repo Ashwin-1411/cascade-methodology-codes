@@ -28,6 +28,8 @@ bash setup.sh
 
 This will install the required Python packages, Go-based tools, and pull the necessary Docker images.
 
+Note: `setup.sh` only pre-pulls the ZAP image. The dynamic scan starts ZAP itself (see Notes below).
+
 If you prefer to install Python packages manually:
 
 ```bash
@@ -90,10 +92,10 @@ The `tests/` folder contains the exploit replay and behavioural smoke test tooli
 
 ## A note on regenerating patches
 
-The cascade cells (9, 12, 15) and the ablation cell (20) call the repair model. Decoding is greedy, so generation is deterministic in principle, but the model is loaded in 4-bit NF4 quantisation and small numerical differences between GPUs, driver versions and library versions can change a token. Regenerated patches may therefore differ from the ones archived here. The archived patches are the reference artifact: they are what produced every reported classification, and the validation records in were computed against them.
+The cascade cells (9, 12, 15) and the ablation cell (20) call the repair model. Decoding is greedy, so generation is deterministic in principle, but the model is loaded in 4-bit NF4 quantisation and small numerical differences between GPUs, driver versions and library versions can change a token. Regenerated patches may therefore differ from the ones archived here. The archived patches are the reference artifact: they are what produced every reported classification, and the validation records in tests/ were computed against them.
 
 ## Notes
 
 - Docker must be running before you start a dynamic scan
 - The target application directory must contain a Dockerfile for dynamic scanning to work
-- ZAP must be running on port 8081 before starting a dynamic scan. The setup script handles this automatically
+- ZAP is started automatically by the dynamic scan (`dast_framework/core/docker_runner.py`) in a `zap-daemon` container on port 8081 with host networking, bound to `127.0.0.1` only, and removed afterwards by `dast_framework/core/cleanup.py`. Ports 8080 and 8081 must be free. Host networking requires a Linux Docker host; see `DVWA/README.md` for details.
